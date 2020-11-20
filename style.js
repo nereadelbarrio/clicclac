@@ -1,16 +1,16 @@
 (function (blink) {
 	'use strict';
 
-	var clicclac_demoStyle = function () {
+	var clicclacdemoStyle = function () {
 		blink.theme.styles.basic.apply(this, arguments);
 	},
 	page = blink.currentPage;
 
-	clicclac_demoStyle.prototype = {
+	clicclacdemoStyle.prototype = {
 		parent: blink.theme.styles.poptropica.prototype,
-		bodyClassName: 'content_type_clase_clicclac_demo',
+		bodyClassName: 'content_type_clase_clicclacdemo',
 		ckEditorStyles: {
-			name: 'clicclac_demo',
+			name: 'clicclacdemo',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -207,7 +207,7 @@
 
         formatCarouselindicators: function (scope, classNavbar) {
 			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && !classNavbar)?classNavbar:'clicclac_demo-navbar'),
+				navbar = ((typeof classNavbar !== "undefined" && !classNavbar)?classNavbar:'clicclacdemo-navbar'),
 				$navbarBottom = $('.navbar-bottom'),
 				firstSlide = eval('t0_slide');
 			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
@@ -418,7 +418,7 @@
 
 	};
 
-	clicclac_demoStyle.prototype = _.extend({}, new blink.theme.styles.poptropica(), clicclac_demoStyle.prototype);
-	blink.theme.styles.clicclac_demo = clicclac_demoStyle;
+	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.poptropica(), clicclacdemoStyle.prototype);
+	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
 
 })( blink );
