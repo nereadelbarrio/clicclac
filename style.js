@@ -409,7 +409,7 @@
 
 	};
 
-	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.poptropica(), clicclacdemoStyle.prototype);
+	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacdemoStyle.prototype);
 	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
 
 })( blink );
