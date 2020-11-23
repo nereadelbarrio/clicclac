@@ -7,7 +7,6 @@
 	page = blink.currentPage;
 
 	clicclacdemoStyle.prototype = {
-		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_clicclacdemo',
 		ckEditorStyles: {
 			name: 'clicclacdemo',
