@@ -1791,7 +1791,7 @@ a:hover, a:active, a:focus {
     padding: 0px 2px 2px 2px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: -40px;
     width: 33px;
     text-align: center;
@@ -1827,7 +1827,7 @@ a:hover, a:active, a:focus {
     padding: 0px 2px 2px 2px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 6px;
+    margin-top: 4px;
     margin-left: -40px;
     width: 33px;
     text-align: center;
@@ -1846,11 +1846,11 @@ a:hover, a:active, a:focus {
 .content .bck-ol3 li,
 .cke_contents .bck-ol3 li {
 	font-weight: normal;
-	color: #333;
+	color: #3B6CAA;
 	margin-left: -10px;
 	padding-left: 80px;
 	font-size: 2.3rem;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
 	}
 
 .content .bck-ol3 li:before,
@@ -1858,7 +1858,7 @@ a:hover, a:active, a:focus {
     content: counter(bck-li-counter, upper-alpha) ".";
     position: absolute;
     margin-top: 4px;
-    left: 40px;
+    margin-left: 45px;
     display: inline-block;
     width: 40px;
     height: 0px;
@@ -1870,8 +1870,7 @@ a:hover, a:active, a:focus {
     text-align: center;
     text-shadow: none;
     transform: none;
-    margin-right: -10px;
-    font-family: 'Conv_OpenDyslexic-Bold',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
 }
 
 /*LISTA ORDENADA 4*/
