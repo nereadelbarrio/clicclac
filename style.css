@@ -1759,7 +1759,7 @@ a:hover, a:active, a:focus {
 .texto_curso ul li,
 .workspace ul li ul li,
 .cke_contents ul li {
-	padding-left: 70px;
+	padding-left: 60px;
 }
 
 .content .bck-ol,
@@ -2162,7 +2162,7 @@ a:hover, a:active, a:focus {
 .workspace .bck-ul1 li ul li,
 .cke_contents .bck-ul1 li {
 	font-weight: normal;
-	color: #333;
+	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 2rem;
@@ -2176,7 +2176,7 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ul1 li:before {
     width: 6px;
     height: 6px;
-    background-color: #414141;
+    background-color: #E94859;
     margin-left: -20px;
     font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
@@ -2189,7 +2189,7 @@ a:hover, a:active, a:focus {
 .workspace .bck-ul2 li ul li,
 .cke_contents .bck-ul2 li {
     font-weight: normal;
-	color: #333;
+	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
 	font-size: 2rem;
@@ -2203,7 +2203,7 @@ a:hover, a:active, a:focus {
     width: 6px;
     height: 6px;
     background-color: #fff;
-    border: 1px solid #414141;
+    border: 1px solid #E94859;
     margin-left: -20px;
     font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
