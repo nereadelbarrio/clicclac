@@ -1769,6 +1769,44 @@ a:hover, a:active, a:focus {
 	color: #333;
 }
 
+/*LISTA ORDENADA POR DEFECTO*/
+
+.content .bck-ol li, 
+.cke_contents .bck-ol li {
+    list-style-type: none;
+    padding-left: 28px;
+    margin-bottom: 16px;
+    margin-left: 5px;
+    counter-increment: bck-li-counter;
+    position: relative;
+    line-height: 1.1rem;
+}
+
+.content .bck-ol1 li:before, 
+.cke_contents .bck-ol1 li:before{
+    content: counter(bck-li-counter) ".";
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -30px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+
 /*LISTA ORDENADA 1*/
 
 .content .bck-ol1 li,
