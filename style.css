@@ -3,7 +3,7 @@
 @font-face {
 	font-family: 'Conv_Plakkaat';
 	src: url('fonts/Plakkaat.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/Plakkaat.woff') format('woff'),
 	url('fonts/Plakkaat.ttf') format('truetype'),
 	url('fonts/Plakkaat.svg') format('svg');
@@ -14,7 +14,7 @@
 @font-face {
 	font-family: 'Conv_AndikaNewBasic-Regular';
 	src: url('fonts/AndikaNewBasic-Regular.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/AndikaNewBasic-Regular.woff') format('woff'),
 	url('fonts/AndikaNewBasic-Regular.ttf') format('truetype'),
 	url('fonts/AndikaNewBasic-Regular.svg') format('svg');
@@ -25,7 +25,7 @@
 @font-face {
 	font-family: 'Conv_AndikaNewBasic-Bold';
 	src: url('fonts/AndikaNewBasic-Bold.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/AndikaNewBasic-Bold.woff') format('woff'),
 	url('fonts/AndikaNewBasic-Bold.ttf') format('truetype'),
 	url('fonts/AndikaNewBasic-Bold.svg') format('svg');
@@ -36,7 +36,7 @@
 @font-face {
 	font-family: 'Conv_OpenDyslexic-Regular';
 	src: url('fonts/OpenDyslexic-Regular.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/OpenDyslexic-Regular.woff') format('woff'),
 	url('fonts/OpenDyslexic-Regular.ttf') format('truetype'),
 	url('fonts/OpenDyslexic-Regular.svg') format('svg');
@@ -47,7 +47,7 @@
 @font-face {
 	font-family: 'Conv_OpenDyslexic-Bold';
 	src: url('fonts/OpenDyslexic-Bold.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/OpenDyslexic-Bold.woff') format('woff'),
 	url('fonts/OpenDyslexic-Bold.ttf') format('truetype'),
 	url('fonts/OpenDyslexic-Bold.svg') format('svg');
@@ -58,7 +58,7 @@
 @font-face {
 	font-family: 'Conv_ChelseaMarket-Regular';
 	src: url('fonts/ChelseaMarket-Regular.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/ChelseaMarket-Regular.woff') format('woff'),
 	url('fonts/ChelseaMarket-Regular.ttf') format('truetype'),
 	url('fonts/ChelseaMarket-Regular.svg') format('svg');
@@ -69,7 +69,7 @@
 @font-face {
 	font-family: 'Conv_sweetpearegular';
 	src: url('fonts/sweetpearegular.eot');
-	src: local('â˜º'),
+	src: local('☺'),
 	url('fonts/sweetpearegular.woff') format('woff'),
 	url('fonts/sweetpearegular.ttf') format('truetype'),
 	url('fonts/sweetpearegular.svg') format('svg');
@@ -1772,88 +1772,73 @@ a:hover, a:active, a:focus {
 /*LISTA ORDENADA 1*/
 
 .content .bck-ol1 li,
-.cke_contents .bck-ol1 li,
-.content ol li,
-.cke_contents ol li {
-	font-weight: normal;
-    color: #ea368e;
-    padding-left: 45px;
+.cke_contents .bck-ol1 li {
+	font-weight: bold;
+    color: #3B6CAA;
+    padding-left: 0;
     font-size: 2.1rem;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    border-bottom: 2px dashed #76B82A;
+    margin-left: 40px;
 }
 
 
 .content .bck-ol1 li:before,
-.cke_contents .bck-ol1 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
+.cke_contents .bck-ol1 li:before {
 	content: counter(bck-li-counter);
-    color: #FFCF01;
-    background: #EA368E;
+    color: #fff;
+    background: #76B82A;
     padding: 0px 2px 2px 2px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 4px;
-    left: 0px;
+    margin-top: 6px;
+    margin-left: -40px;
     width: 33px;
     text-align: center;
     height: auto;
     font-size: 2.1rem;
     text-shadow: none;
     transform: none;
-    margin-right: -10px;
-    font-weight: bold;
     font-family: 'Conv_Plakkaat',Sans-Serif;
-	box-shadow: inherit;
-	border: inherit;
-	line-height: inherit;
+    box-shadow: inherit;
+    border: inherit;
+    line-height: inherit;
 }
 
 /*LISTA ORDENADA 2*/
 
 .content .bck-ol2 li,
-.cke_contents .bck-ol2 li,
-.content ol li,
-.cke_contents ol li {
-
+.cke_contents .bck-ol2 li {
 	font-weight: normal;
-    color: #00AC81;
-    padding-left: 45px;
+    color: #3B6CAA;
+    padding-left: 0;
     font-size: 2.1rem;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
-	list-style-type: none;
-	padding-top: 5px;
-	margin-bottom: 20px;
-	counter-increment: bck-li-counter;
-	position: relative;
-	line-height: 1.1rem;
+    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    border-bottom: 2px dashed #76B82A;
+    margin-left: 40px;
 
 }
 
 .content .bck-ol2 li:before,
-.cke_contents .bck-ol2 li:before,
-.content ol li:before,
-.cke_contents ol li:before {
-    top: 0px;
+.cke_contents .bck-ol2 li:before {
     content: counter(bck-li-counter);
-    color: #FFCF01;
-    background: #00AC81;
+    color: #fff;
+    background: #76B82A;
     padding: 0px 2px 2px 2px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 4px;
-    left: 0px;
+    margin-top: 6px;
+    margin-left: -40px;
     width: 33px;
     text-align: center;
     height: auto;
     font-size: 2.1rem;
     text-shadow: none;
     transform: none;
-    margin-right: -10px;
-    font-weight: bold;
     font-family: 'Conv_Plakkaat',Sans-Serif;
-	border: none;
-	box-shadow: none;
+    box-shadow: inherit;
+    border: inherit;
+    line-height: inherit;
 }
 
 /*LISTA ORDENADA 3*/
@@ -1870,7 +1855,7 @@ a:hover, a:active, a:focus {
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
-    content: counter(bck-li-counter) ".";
+    content: counter(bck-li-counter, upper-alpha) ".";
     position: absolute;
     margin-top: 4px;
     left: 40px;
@@ -1879,7 +1864,7 @@ a:hover, a:active, a:focus {
     height: 0px;
     border: 0px;
     background: transparent;
-    color: #333;
+    color: #76B82A;
     font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
