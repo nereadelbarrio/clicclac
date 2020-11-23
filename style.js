@@ -2,12 +2,11 @@
 	'use strict';
 
 	var clicclacdemoStyle = function () {
-		blink.theme.styles.basic.apply(this, arguments);
-	},
-	page = blink.currentPage;
+			blink.theme.styles.basic.apply(this, arguments);
+		},
+		page = blink.currentPage;
 
 	clicclacdemoStyle.prototype = {
-		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_clicclacdemo',
 		ckEditorStyles: {
 			name: 'clicclacdemo',
@@ -25,6 +24,7 @@
 				{ name: 'Título 10', element: 'h4', attributes: { 'class': 'bck-title bck-title10'} },
 				{ name: 'Título 11', element: 'h4', attributes: { 'class': 'bck-title bck-title11'} },
 				{ name: 'Título 12', element: 'h4', attributes: { 'class': 'bck-title bck-title12'} },
+			
 
 				{ name: 'Énfasis Workbook Subrayado Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
 				{ name: 'Énfasis Amarillo con fondo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
@@ -43,6 +43,7 @@
 				{ name: 'Énfasis Cuaderno Actividades', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-15'} },
 				{ name: 'Énfasis Ejemplo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-16'} },
 				{ name: 'Énfasis Número Audio', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-17'} },
+
 
 				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
 				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
@@ -80,6 +81,7 @@
 				{ name: 'Celda 7', element: 'td', attributes: { 'class': 'bck-td-7' } },
 				{ name: 'Celda 8', element: 'td', attributes: { 'class': 'bck-td-8' } },
 
+			
 				{ name: 'Icono Escucha', element: 'span', attributes: { 'class': 'icon icon-escucha' } },
 				{ name: 'Icono Habla', element: 'span', attributes: { 'class': 'icon icon-habla' } },
 				{ name: 'Icono Repite', element: 'span', attributes: { 'class': 'icon icon-repite' } },
@@ -94,6 +96,7 @@
 				{ name: 'Icono Señala', element: 'span', attributes: { 'class': 'icon icon-senala' } },
 				{ name: 'Icono Lee', element: 'span', attributes: { 'class': 'icon icon-lee' } },
 				{ name: 'Icono Habla con tus compañeros', element: 'span', attributes: { 'class': 'icon icon-hablacompaneros' } },
+				
 
 				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
 				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
@@ -121,304 +124,70 @@
 				{ name: 'Caja 24', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box24' } },
 				{ name: 'Caja 25', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box25' } },
 				{ name: 'Caja 26', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box26' } }
-			],
-			stylesToRemove: ['Icono Draw', 'Icono Write', 'Icono Speaking', 'Icono Reading', 'Icono Star']
+			]
 		},
 
-		init: function (scope) {
-			var that = scope || this;
-			that.parent.init.call(this.parent, this);
-			that.getActualUnitActivities();
-            blink.events.on("course_loaded", function(){
-				that.formatCarouselindicators();
-				that.recordingCSS();
-				that.disableDownload();
-			});
-			that.addSlideNavigators();
+		init: function () {
+			var parent = blink.theme.styles.basic.prototype;
+			parent.init.call(this);
+			this.addActivityTitle();
+			if(window.esWeb) return;
+			this.removeFinalSlide();
+			this.handleScrollEnd();
+			this.setTooltip();
+			window.editar && this.configEditor();
+
+			if ($('.navbar-bottom').length > 0) {
+ 				$('.navbar-bottom ol').wrapAll('<div id="bottom-navigator"></div>');
+		 		var width = 0;
+		 		$('.navbar-bottom li').each(function(i, elem){ width += $(elem).outerWidth(true); });
+		 		$('.navbar-bottom ol').css('width', width * 1.1);
+		 		var scroll = new IScroll('#bottom-navigator', {
+		 			scrollX: true,
+		 			scrollY: false,
+		 			eventPassthrough: true
+		 		});
+		 		scroll.on('scrollEnd', this.handleScrollEnd);
+		 		this.handleScrollEnd.call(scroll);
+	 		}
+
 		},
 
-		removeFinalSlide: function (scope) {
-			//BK-15873 Utilizamos this.parent declarada al inicio de la clase
-			var that = scope || this;
-			this.parent.removeFinalSlide.call(that, true);
+		configEditor: function (editor) {
+			editor.dtd.$removeEmpty['span'] = false;
 		},
 
-        /**
-		 * @summary Gets the activity type subunits of the actual unit.
-		 * @return {Object} Object of the actual unit filtering the not activity type subunits
-		 */
-		getActualUnitActivities: function () {
-			var curso = blink.getCourse(idcurso),
-				that = this,
-				units,
-				unitSubunits,
-				actualActivity,
-				unitActivities = [];
 
-			curso.done(function () {
-				units = curso.responseJSON.units;
-
-				$.each(units, function () {
-					if (this.id && this.id == blink.courseInfo.IDUnit) {
-						unitSubunits = this.subunits.concat(this.resources);
-					}
-				});
-
-				actualActivity = _.find(unitSubunits, function(subunit) {
-					return subunit.id == idclase;
-				});
-
-				if (typeof actualActivity !== "undefined" && actualActivity.level == '6') {
-					unitActivities.push(actualActivity);
-				} else {
-					unitActivities = _.filter(unitSubunits, function(subunit) {
-						return subunit.type == 'actividad' && subunit.level !== '6';
-					});
-				}
-
-                that.subunits = unitActivities;
-
-			}).done(function(){
-				blink.events.trigger('course_loaded');
+		addActivityTitle: function () {
+			if (!blink.courseInfo || !blink.courseInfo.unit) return;
+			$('.libro-left').find('.title').html(function () {
+				return $(this).html().trim() + ' > ' + blink.courseInfo.unit;
 			});
 		},
 
-		/**
-		 * @summary Getting active slide position in relation with the total of the
-		 *          unit slides.
-		 * @param {Array} $subunits Array of activity type objects
-		 * @return {int} Slide position
-		 */
-		getActualSlideNumber: function (subunits) {
-			var actualSlideIndex = $('.swipeview-active').attr('data-page-index'),
-				actualSlide = 1;
+		handleScrollEnd: function () {
+ 			$('#bottom-navigator')
+ 				.removeClass('show_left')
+ 				.removeClass('show_right');
 
-			for (var i in subunits) {
-				if (subunits[i].id && parseInt(subunits[i].id) != idclase) {
-					actualSlide += blink.activity.getActivityPages(subunits[i]);
-				} else {
-					actualSlide += parseInt(actualSlideIndex);
-					break;
-				}
-			}
+ 			if (this.x < 0) {
+ 				$('#bottom-navigator').addClass('show_left');
+ 			}
+ 			if (this.x > this.maxScrollX) {
+ 				$('#bottom-navigator').addClass('show_right');
+ 			}
 
-			return actualSlide;
-		},
+ 		},
 
-        formatCarouselindicators: function (scope, classNavbar) {
-			var that = scope || this,
-				navbar = ((typeof classNavbar !== "undefined" && !classNavbar)?classNavbar:'clicclacdemo-navbar'),
-				$navbarBottom = $('.navbar-bottom'),
-				firstSlide = eval('t0_slide');
-			if(blink.courseInfo && blink.courseInfo.courseDateCreated) var courseYearCreated = new Date(blink.courseInfo.courseDateCreated).getFullYear();
-			var yearCopy = courseYearCreated !== undefined ? courseYearCreated : 2019;
-			$navbarBottom
-				.attr('class', navbar)
-				.wrapInner('<div class="navbar-content"></div>')
-				.find('ol')
-					.before('<span class="copyright">&copy;' +  yearCopy + '</span>')
-					.wrap('<div id="top-navigator"/>')
-					.remove()
-					.end();
+		setTooltip: function () {},
 
-			$('#volverAlIndice').click(function() {
-				return showCursoCommit();
-			});
-
-			var no_concatenadas = blink.activity.getActivityLength();
-
-			var subunits = that.subunits,
-				totalSlides = 0,
-				subunit_index,
-				subunit_pags;
-
-			// Different behaviour depending on whether the slides are accessed from
-			// a book or from a homework link or similar
-			if (subunits.length !== 0) {
-				for (var i in subunits) {
-					if (subunits[i].pags) {
-						var subunitSlides = blink.activity.getActivityPages(subunits[i]);
-						totalSlides += subunitSlides;
-					}
-					if (subunits[i].id && subunits[i].id == idclase) {
-						subunit_index = i;
-						subunit_pags = blink.activity.getActivityPages(subunits[i]);
-					}
-				}
-
-				that.totalSlides = totalSlides;
-				$('#top-navigator').append('<span class="left slider-navigator">' +
-						'<span class="fa fa-chevron-left"></span>' +
-					'</span>' +
-					'<span class="slide-counter" data-subunit-index="' + subunit_index +
-						'" data-subunit-pags="' + subunit_pags + '">' +
-						that.getActualSlideNumber(subunits) + ' / ' + totalSlides +
-					'</span>' +
-					'<span class="right slider-navigator">' +
-						'<span class="fa fa-chevron-right"></span>' +
-					'</span>');
-
-				blink.events.on('section:shown', function() {
-					$('.slide-counter').html(that.getActualSlideNumber(subunits) +
-						' / ' + totalSlides);
-				});
-			} else {
-			$('#top-navigator').append('<span class="left slider-navigator">' +
-					'<span class="fa fa-chevron-left"></span>' +
-				'</span>' +
-				'<span class="slide-counter">' + (window.activeSlide + 1) +
-					' / ' + window.secuencia.length +
-				'</span>' +
-				'<span class="right slider-navigator">' +
-					'<span class="fa fa-chevron-right"></span>' +
-				'</span>');
-
-			blink.events.on('section:shown', function() {
-				$('.slide-counter').html((window.activeSlide + 1) +
-					' / ' + window.secuencia.length);
-					$('.bck-dropdown-2').hideBlink();
-				});
-			}
-
-			blink.events.on('section:shown', function() {
-				var sectionTitle = eval('t' + blink.activity.getFirstSlideIndex(window.activeSlide) +
-					'_slide').title;
-				$navbarBottom.find('.sectionTitle').text(sectionTitle);
-			});
-
-			if (firstSlide.seccion) {
-				$navbarBottom.addClass('first-is-section');
-			}
-
-			blink.events.trigger(true, 'style:endFormatCarousel');
-        },
-
-		addSlideNavigators: function () {
-			var that = this;
-
-			blink.events.on("course_loaded", function(){
-				var that = blink.activity.currentStyle,
-					subunit_index = parseInt($('.slide-counter').attr('data-subunit-index')),
-					level_six = that.subunits.length == 1 && that.subunits[0].level == 6;
-
-				$('.slider-control').off('click');
-				// Navigation change depending on whether the slides are accessed from
-				// a book or from a homework link or similar
-				if (that.subunits.length !== 0 && !level_six) {
-					// Slider controls must allow navigation among all the activity subunits
-					// in the current unit.
-					var idgrupo = window.idgrupo,
-						idalumno = window.idalumno,
-						slideNavParams = '';
-
-					if (idgrupo) slideNavParams += '&idgrupo=' + idgrupo;
-					if (idalumno) slideNavParams += '&idalumno=' + idalumno;
-
-					$('.left.slider-control, .left.slider-navigator').click(function () {
-
-						if (!$(this).hasClass('disabled')) {
-							if(activeSlide == 0) {
-								// BK-19486 audio stop when slider changes.
-								if (blink.isApp) {
-									blink.rest.closeAudio();
-								}
-								redireccionar('/coursePlayer/clases2.php?editar=0&idcurso=' +
-									idcurso + '&idclase=' + that.subunits[subunit_index - 1].id + '&modo='+ modoVisualizacion + '&numSec=' +
-									that.subunits[subunit_index - 1].numSlides + slideNavParams, false, undefined);
-							} else {
-								blink.activity.showPrevSection();
-							}
-						}
-					});
-
-					$('.right.slider-control, .right.slider-navigator').click(function () {
-						if (!$(this).hasClass('disabled')) {
-							if(activeSlide == parseInt(that.subunits[subunit_index].pags) - 1) {
-								// BK-19486 audio stop when slider changes.
-								if (blink.isApp) {
-									blink.rest.closeAudio();
-								}
-								redireccionar('/coursePlayer/clases2.php?editar=0&idcurso=' +
-									idcurso + '&idclase=' + that.subunits[subunit_index + 1].id + '&modo='+ modoVisualizacion +
-									((typeof window.esPopup !== "undefined" && window.esPopup)?"&popup=1":"")  + slideNavParams,
-									false, undefined);
-							} else {
-								blink.activity.showNextSection();
-							}
-						}
-					});
-
-					document.addEventListener('swipe:first:previousActivity', function(e) {
-						blink.activity.previousSlide(that.subunits, subunit_index);
-					}, false);
-					document.addEventListener('swipe:last:nextActivity', function(e) {
-						blink.activity.nextSlide(that.subunits, subunit_index);
-					}, false);
-				} else {
-					$('.left.slider-control, .left.slider-navigator').click(function () {
-						blink.activity.showPrevSection();
-					});
-					$('.right.slider-control, .right.slider-navigator').click(function () {
-						blink.activity.showNextSection();
-					});
-				}
-
-				that.enableSliders();
-
-				$(document).ready(function() {
-					blink.events.on('showSlide:after', function() {
-						that.enableSliders();
-					});
-				});
-			});
-		},
-
-		/**
-		 * @summary Enables all slider controls and disables when appropiate
-		 */
-		enableSliders: function () {
-			// Removes disabled class to all navigation buttons and applies
-			// just if its first or last slide of all activities
-			$('.slider-control, .slider-navigator').removeClass('disabled');
-			var that = blink.activity.currentStyle,
-				subunit_index = parseInt($('.slide-counter').attr('data-subunit-index')),
-				level_six = this.subunits.length == 1 && this.subunits[0].level == 6;
-			// Navigation change depending on whether the slides are accessed from
-			// a book or from a homework link or similar
-			if (this.subunits.length !== 0 && modoVisualizacionLabel != "standalone") {
-				if (this.getActualSlideNumber(this.subunits) == 1) {
-					$('.slider-control.left, .slider-navigator.left').addClass('disabled');
-				}
-				if (this.getActualSlideNumber(this.subunits) == this.totalSlides && !level_six) {
-					$('.slider-control.right, .slider-navigator.right').addClass('disabled');
-				}
-			} else {
-				if (window.activeSlide == 0) {
-					$('.slider-control.left, .slider-navigator.left').addClass('disabled');
-				}
-				if(that.subunits[subunit_index] && window.activeSlide == parseInt(that.subunits[subunit_index].pags) - 1 && !level_six){
-					$('.slider-control.right, .slider-navigator.right').addClass('disabled');
-				}
-			}
-		},
-
-		disableDownload: function(){
-			deshabilitarMenuContextual("video, img, audio, .audio");
-		},
-
-		deshabilitarMenuContextualGaleria: function(){
-			return true;
-		},
-
-		recordingCSS: function(){
-			if($(".audiorecorder").length > 0){
-				$("#remote-modal .modal-dialog").addClass("audio-recording");
-			}
-		},
-
+		getEditorStyles: function () {
+			return this.ckEditorStyles;
+		}
 	};
 
 	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacdemoStyle.prototype);
+
 	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
 
 })( blink );
