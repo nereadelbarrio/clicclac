@@ -2,7 +2,7 @@
 	'use strict';
 
 	var clicclacdemoStyle = function () {
-		blink.theme.styles.basic.apply(this, arguments);
+		blink.theme.styles.poptropica.apply(this, arguments);
 	},
 	page = blink.currentPage;
 
@@ -13,8 +13,6 @@
 			name: 'clicclacdemo',
 			styles: [
 
-				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
-				{ name: 'Título 2', element: 'h4', attributes: { 'class': 'bck-title bck-title2'} },
 				{ name: 'Título 3', element: 'h4', attributes: { 'class': 'bck-title bck-title3'} },
 				{ name: 'Título 4', element: 'h4', attributes: { 'class': 'bck-title bck-title4'} },
 				{ name: 'Título 5', element: 'h4', attributes: { 'class': 'bck-title bck-title5'} },
@@ -44,10 +42,6 @@
 				{ name: 'Énfasis Ejemplo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-16'} },
 				{ name: 'Énfasis Número Audio', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-17'} },
 
-				{ name: 'Lista ordenada 1', element: 'ol', attributes: { 'class': 'bck-ol bck-ol1' } },
-				{ name: 'Lista ordenada 2', element: 'ol', attributes: { 'class': 'bck-ol bck-ol2' } },
-				{ name: 'Lista ordenada 3', element: 'ol', attributes: { 'class': 'bck-ol bck-ol3' } },
-				{ name: 'Lista ordenada 4', element: 'ol', attributes: { 'class': 'bck-ol bck-ol4' } },
 				{ name: 'Lista ordenada 5', element: 'ol', attributes: { 'class': 'bck-ol bck-ol5' } },
 				{ name: 'Lista ordenada 6', element: 'ol', attributes: { 'class': 'bck-ol bck-ol6' } },
 				{ name: 'Lista ordenada 7', element: 'ol', attributes: { 'class': 'bck-ol bck-ol7' } },
@@ -95,9 +89,6 @@
 				{ name: 'Icono Lee', element: 'span', attributes: { 'class': 'icon icon-lee' } },
 				{ name: 'Icono Habla con tus compañeros', element: 'span', attributes: { 'class': 'icon icon-hablacompaneros' } },
 
-				{ name: 'Caja 1', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box1' } },
-				{ name: 'Caja 2', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box2' } },
-				{ name: 'Caja 3', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box3' } },
 				{ name: 'Caja 4', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box4' } },
 				{ name: 'Caja 5', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box5' } },
 				{ name: 'Caja 6', type: 'widget', widget: 'blink_box', attributes: { 'class': 'bck-box bck-box6' } },
@@ -418,7 +409,7 @@
 
 	};
 
-	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacdemoStyle.prototype);
+	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.poptropica(), clicclacdemoStyle.prototype);
 	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
 
 })( blink );
