@@ -7,7 +7,7 @@
 	page = blink.currentPage;
 
 	clicclacdemoStyle.prototype = {
-		parent: blink.theme.styles.poptropica.prototype,
+		parent: blink.theme.styles.basic.prototype,
 		bodyClassName: 'content_type_clase_clicclacdemo',
 		ckEditorStyles: {
 			name: 'clicclacdemo',
@@ -409,7 +409,7 @@
 
 	};
 
-	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacdemoStyle.prototype);
+	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.poptropica(), clicclacdemoStyle.prototype);
 	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
 
 })( blink );
