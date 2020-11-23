@@ -2,7 +2,7 @@
 	'use strict';
 
 	var clicclacdemoStyle = function () {
-		blink.theme.styles.poptropica.apply(this, arguments);
+		blink.theme.styles.basic.apply(this, arguments);
 	},
 	page = blink.currentPage;
 
