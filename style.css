@@ -2420,69 +2420,43 @@ a:hover, a:active, a:focus {
     padding: 15px 10px 10px 45px;
 }
 
-/*Caja 20*/
-.bck-box.bck-box20 {
-	background-color: #FCEAF1;
-    margin-bottom: 40px;
-    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-	box-shadow: 5px 5px 8px 5px #D7D7D7;
-    -webkit-transform: rotate(1.5deg);
-    -moz-transform: rotate(1.5deg);
-    -ms-transform: rotate(1.5deg);
-    transform: rotate(1.5deg);
-    background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%),
-    -webkit-radial-gradient(#cfcfc3 38%, transparent 24%),
-    -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
-    background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%),
-    -moz-radial-gradient(#cfcfc3 38%, transparent 24%),
-    -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-    background-image: radial-gradient(#d6d5d6 30%, transparent 20%),
-    radial-gradient(#cfcfc3 38%, transparent 24%),
-    linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-    background-position: 4px 1px, 4px 0px, 50% 0px;
-    background-repeat: repeat-x, repeat-x, repeat;
-    background-size: 30px 30px, 30px 30px, 30px 30px;
-    padding: 38px 10px 10px 20px;
-  }
 
 /* Caja 5 */
 .bck-box.bck-box5 {
-	border: 3px solid #EA368E;
-    background: #fff;
-    border-radius: 50%;
-    margin-bottom: 30px;
-    padding: 40px;
-    text-align: center;
-    -webkit-box-shadow: 10px 5px 5px 1px #D0D0D0;
-    box-shadow: 5px 8px 12px 0px #D0D0D0;
-    font-size: 2rem;
-    font-family:'Conv_OpenDyslexic-Regular',Sans-Serif;
-}
+	margin: 10px;
+    background: #f6f6f3;
+    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
+	box-shadow: 5px 5px 8px 5px #D7D7D7;
+    position: relative;
+    background-image: -webkit-linear-gradient(#d6d5d6 30%, transparent 20%), -webkit-linear-gradient(#d6d5d6 30%, transparent 20%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%), -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+    background-image: -moz-linear-gradient(#d6d5d6 30%, transparent 20%), -moz-linear-gradient(#d6d5d6 30%, transparent 20%), -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%), -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+    background-image: linear-gradient(#d6d5d6 30%, transparent 20%), linear-gradient(#d6d5d6 30%, transparent 20%), linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%), linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
+    background-position: 10px 5px, 10px 5px, 50% 0px;
+    background-repeat: repeat-y, repeat-y, repeat;
+    background-size: 9px 30px, 9px 30px, 30px 30px;
+    padding: 10px 10px 10px 50px;
 
-.bck-box5 .bck-title {
-	color: #333;
-    font-size: 2rem;
-    font-weight: 600;
 }
 
 
 /* Caja 6 */
 .bck-box.bck-box6 {
-	border: none;
-	width: 230px;
-    background: #EA368E;
-    border-radius: 100%;
-    text-align: center;
-    color: #fff;
-    padding: 40px;
-    font-size: 2rem;
-    font-family:'Conv_OpenDyslexic-Regular',Sans-Serif;
+	display: block;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    z-index: 1;
+    transform: rotate(-3deg);
+    margin-bottom: 55px;
 }
 
-.bck-box6 .bck-title {
-	color: #333;
-    font-size: 2rem;
-    font-weight: 600;
+.bck-box6 .bck-content {
+	display: block;
+    padding-bottom: 10px;
+    background-color: #fff;
+    width: 99%;
+    z-index: 1;
+    padding: 20px;
+    transform: rotate(3deg);
 }
 
 /* Caja 7 */
