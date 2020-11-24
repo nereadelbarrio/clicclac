@@ -2165,7 +2165,7 @@ a:hover, a:active, a:focus {
 	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
 	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 
@@ -2192,7 +2192,7 @@ a:hover, a:active, a:focus {
 	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
     font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
@@ -2371,32 +2371,20 @@ a:hover, a:active, a:focus {
 
 /* Caja 2*/
 .bck-box.bck-box2 {
-	border: none;
-	background: #FFCF01;
+	border: 3px solid #009FE3;
+	background: #fff;
 	margin-bottom: 30px;
-	padding: 15px 20px 30px 25px;
-	border-radius: 0px;
-	margin-top: -40px;
+	padding: 20px;
+	border-radius: 20px;
 	text-align: inherit;
 }
 
 .bck-box2 .bck-title {
-	color: #fff;
-    background: #00AC81;
-    width: fit-content;
-    padding: 30px 25px 0px 25px;
-    font-family: 'Conv_Plakkaat',Sans-Serif;
-    font-size: 3.5rem;
-    margin-left: -50px;
-    margin-top: -15px;
+    background: #fff;
 }
 
 .bck-box2 .bck-content{
-	background: #FFCF01;
-	font-family: 'Conv_ChelseaMarket-Regular';
-	color: #8ACFB8;
-	font-size: 4.8rem;
-	-webkit-text-stroke: #00AC81 3px;
+	background: #fff;
 }
 
 
