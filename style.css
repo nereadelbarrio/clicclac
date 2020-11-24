@@ -3233,12 +3233,14 @@ hr {
 	background-image: url(images/icono_mano.png);
 	width: 42px;
     height: 35px;
+    margin-top: -10px;
 }
 
 .item-container .icon-notas:before {
 	background-image: url(images/icono_notas.png);
 	width: 40px;
     height: 30px;
+    margin-top: -5px;
 }
 
 .item-container .icon-pegamento:before {
