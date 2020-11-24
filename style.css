@@ -2395,7 +2395,7 @@ a:hover, a:active, a:focus {
 
 /* Caja 3 */
 .bck-box.bck-box3 {
-    margin: 10px 10px 20px 10px;
+    margin: 10px 10px 50px 10px;
     background: #FFF;
     padding: 6px 20px;
     border-radius: 20px;
@@ -2417,7 +2417,7 @@ a:hover, a:active, a:focus {
     background-position: 4px 1px, 4px 0px, 50% 0px;
     background-repeat: repeat-y, repeat-y, repeat;
     background-size: 30px 30px, 30px 30px, 30px 30px;
-    padding: 38px 10px 10px 20px;
+    padding: 15px 10px 10px 45px;
 }
 
 /*Caja 20*/
@@ -3195,42 +3195,62 @@ hr {
 
 .item-container .icon-bocadillo:before {
 	background-image: url(images/icono_bocadillo.png);
+	width: 40px;
+    height: 30px;
 }
 
 .item-container .icon-brujula:before {
 	background-image: url(images/icono_brujula.png);
+	width: 40px;
+    height: 30px;
 }
 
 .item-container .icon-fiche:before {
 	background-image: url(images/icono_fiche.png);
+	width: 55px;
+    height: 55px;
 }
 
 .item-container .icon-lapiz:before {
 	background-image: url(images/icono_lapiz.png);
+	width: 23px;
+    height: 45px;
 }
 
 .item-container .icon-libro:before {
 	background-image: url(images/icono_libro.png);
+	width: 40px;
+    height: 35px;
 }
 
 .item-container .icon-lupa:before {
 	background-image: url(images/icono_lupa.png);
+	width: 40px;
+    height: 40px;
 }
 
 .item-container .icon-mano:before {
 	background-image: url(images/icono_mano.png);
+	width: 42px;
+    height: 35px;
 }
 
 .item-container .icon-notas:before {
 	background-image: url(images/icono_notas.png);
+	width: 40px;
+    height: 30px;
 }
 
 .item-container .icon-pegamento:before {
 	background-image: url(images/icono_pegamento.png);
+	width: 30px;
+    height: 40px;
 }
 
 .item-container .icon-pintar:before {
 	background-image: url(images/icono_pintar.png);
+	width: 55px;
+    height: 50px;
 }
 
 
