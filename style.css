@@ -2372,12 +2372,15 @@ a:hover, a:active, a:focus {
 
 /* Caja 2*/
 .bck-box.bck-box2 {
-	border: 3px solid #009FE3;
+	border: 6px solid #009FE3;
 	background: #fff;
 	margin-bottom: 30px;
-	padding: 20px;
+	padding: 25px;
 	border-radius: 20px;
 	text-align: inherit;
+	-webkit-box-shadow: 5px 5px 10px #BCBDC0;
+    -moz-box-shadow: 5px 5px 10px #BCBDC0;
+    box-shadow: 5px 5px 10px #BCBDC0;
 }
 
 .bck-box2 .bck-title {
