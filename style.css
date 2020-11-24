@@ -2411,12 +2411,12 @@ a:hover, a:active, a:focus {
     margin-bottom: 40px;
     -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
 	box-shadow: 5px 5px 8px 5px #D7D7D7;
-    background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%);
-    background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%), -moz-radial-gradient(#cfcfc3 38%, transparent 24%);
-    background-image: radial-gradient(#d6d5d6 30%, transparent 20%), radial-gradient(#cfcfc3 38%, transparent 24%);
-    background-position: 4px 1px, 4px 0px, 50% 0px;
+    background-image: -webkit-linear-gradient(#d6d5d6 30%, transparent 20%), -webkit-linear-gradient(#d6d5d6 30%, transparent 20%);
+    background-image: -moz-linear-gradient(#d6d5d6 30%, transparent 20%), -moz-linear-gradient(#d6d5d6 30%, transparent 20%);
+    background-image: linear-gradient(#d6d5d6 30%, transparent 20%), linear-gradient(#cfcfc3 40%, transparent 43%);
+    background-position: 10px 5px, 10px 5px, 50% 0px;
     background-repeat: repeat-y, repeat-y, repeat;
-    background-size: 30px 30px, 30px 30px, 30px 30px;
+    background-size: 9px 30px, 9px 30px, 30px 30px;
     padding: 15px 10px 10px 45px;
 }
 
