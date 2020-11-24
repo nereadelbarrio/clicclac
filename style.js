@@ -26,10 +26,10 @@
 				{ name: 'Título 12', element: 'h4', attributes: { 'class': 'bck-title bck-title12'} },
 			
 
-				{ name: 'Énfasis Workbook Subrayado Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
-				{ name: 'Énfasis Amarillo con fondo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
-				{ name: 'Énfasis Fondo Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-3'} },
-				{ name: 'Énfasis Amarillo con fondo Verde', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-4'} },
+				{ name: 'Énfasis 1', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-1'} },
+				{ name: 'Énfasis 2', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-2'} },
+				{ name: 'Énfasis 3', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-3'} },
+				{ name: 'Énfasis 4', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-4'} },
 				{ name: 'Énfasis Rodear Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-5'} },
 				{ name: 'Énfasis Rojo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-6'} },
 				{ name: 'Énfasis Morado', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-7'} },
