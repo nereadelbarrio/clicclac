@@ -2475,21 +2475,14 @@ a:hover, a:active, a:focus {
 
 /* Caja 7 */
 .bck-box.bck-box7 {
-	border: none;
-	width: 230px;
-    background: #00AC81;
-    border-radius: 100%;
-    text-align: center;
-    color: #fff;
-    padding: 40px;
-    font-size: 2rem;
-    font-family:'Conv_OpenDyslexic-Regular',Sans-Serif;
+    background: #83D0F5;
+    border-radius: 20px;
+    padding: 40px 20px 40px 20px;
 }
 
-.bck-box7 .bck-title {
+.bck-box7 .bck-content {
+	border-radius: 0;
 	color: #333;
-    font-size: 2rem;
-    font-weight: 600;
 }
 
 
@@ -2497,20 +2490,14 @@ a:hover, a:active, a:focus {
 /*Caja 8*/
 .bck-box.bck-box8 {
 	border: none;
-	background: #00AC81;
-	border-radius: 20px;
-	margin-bottom: 30px;
+	background: #EDEDED;
 	padding: 20px;
-	color: #fff;
-	font-size: 2rem;
-    font-family:'Conv_OpenDyslexic-Regular',Sans-Serif;
+	color: #333;
 
 }
 
-.bck-box8 .bck-title {
-	color: #333;
-    font-size: 2rem;
-    font-weight: 600;
+.bck-box8 .bck-content {
+	transform: rotate(-180deg);
 }
 
 
