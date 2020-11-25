@@ -3413,7 +3413,8 @@ hr {
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
-#actividad .workspace.ordenar .js-rank-item {
+#actividad .workspace.ordenar .js-rank-item,
+#actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
     border: none;
     background: #fff;
     background: #0072BB;
