@@ -2427,18 +2427,27 @@ a:hover, a:active, a:focus {
     -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
 	box-shadow: 5px 5px 8px 5px #D7D7D7;
     position: relative;
-	background-image: -webkit-linear-gradient(#d6d5d6 30%, transparent 20%), -webkit-linear-gradient(#d6d5d6 30%, transparent 20%),
-				  -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-				  -webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-image: -moz-linear-gradient(#d6d5d6 30%, transparent 20%), -moz-linear-gradient(#d6d5d6 30%, transparent 20%)
-				  -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-					  -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-image: linear-gradient(#d6d5d6 30%, transparent 20%), linear-gradient(#d6d5d6 30%, transparent 20%)
-			  linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
-			  linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-	background-position: 4px 1px, 4px 0px, 50% 0px;
-	background-repeat: repeat-x, repeat-x, repeat,repeat;
-	background-size: 30px 30px, 30px 30px, 30px 30px;
+	background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%),
+						  -webkit-radial-gradient(#cfcfc3 38%, transparent 24%),
+						  -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%),
+							-webkit-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%);
+		background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%),
+						  -moz-radial-gradient(#cfcfc3 38%, transparent 24%),
+						  -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%),
+						  -moz-linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%);
+		background-image: radial-gradient(#d6d5d6 30%, transparent 20%),
+						  radial-gradient(#cfcfc3 38%, transparent 24%),
+						  linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%),
+						  linear-gradient(left, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%,
+													   #c6c6c666 95%, #c6c6c666 100%);
+		background-position: 4px 1px, 4px 0px, 50% 0px;
+		background-repeat: repeat-y, repeat-y, repeat,repeat;
+		background-size: 30px 30px, 30px 30px, 30px 30px;
     padding: 10px 10px 10px 50px;
 
 }
