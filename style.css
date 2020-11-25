@@ -2439,6 +2439,7 @@ a:hover, a:active, a:focus {
 /* Caja 5 */
 .bck-box.bck-box5 {
 	margin: 10px;
+	margin-bottom: 30px;
     background: #f6f6f3;
     -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
 	box-shadow: 5px 5px 8px 5px #D7D7D7;
@@ -3099,9 +3100,8 @@ hr {
 }
 
 .bck-enfasis-5 {
-	border: 2px solid #FFCF01;
-    border-radius: 60%;
-    padding: 3px 5px 3px 5px;
+	color: #3B6CAA;
+    font-family: 'Conv_OpenDyslexic-Regular';
 }
 
 .bck-enfasis-6 {
