@@ -2560,30 +2560,21 @@ a:hover, a:active, a:focus {
 
 /* Caja 10 */
 .bck-box.bck-box10 {
-	background: #FCEAF1;
-	padding: 20px;
-	margin-bottom: 20px;
-	border-radius: 20px;
-	border: 2px solid #EA368E;
-}
-
-.bck-box10 .bck-title {
-	font-family: 'Conv_AndikaNewBasic-Bold';
-	padding-left: 10px;
-
-}
-
-.bck-box10 .bck-content {
-    padding: 5px 5px 10px 10px;
-    font-family: 'Conv_AndikaNewBasic-Regular';
+	margin: 10px 10px 20px 10px;
+    background: #FFF;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 2px solid #3B6CAA;
 }
 
 
 /* Caja 11 */
 .bck-box.bck-box11 {
-	background-color: #FCEAF1;
+	margin: 10px 10px 20px 10px;
+    background: #FFF;
+    padding: 6px 20px;
     border-radius: 20px;
-    margin-bottom: 20px;
+    border: 2px solid #FFDB00;
 }
 
 
