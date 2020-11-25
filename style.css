@@ -1559,21 +1559,15 @@ a:hover, a:active, a:focus {
 }
 
 
-/*TÃTULOS*/
+/*TITULOS*/
 
 /*TITULO 1*/
 
 .bck-title1 {
-	font-size: 3.5rem;
-	font-family: 'Conv_ChelseaMarket-Regular';
-	color: #FAD8E4;
-	-webkit-text-stroke: #EA368E 2px;
-	margin-bottom: 30px;
-	text-align: center;
-    background: none;
-	border: none;
-	box-shadow: none;
-	display: inherit;
+	color:#3B6CAA;
+	background-color: #FFDB00;
+    padding: 15px 20px 10px 20px;
+    font-size: 2.1rem;
 }
 
 /*TITULO 2*/
@@ -1741,17 +1735,10 @@ a:hover, a:active, a:focus {
 
 /*TITULO 12*/
 .bck-title12{
-	color:#fff;
-	background-color: #00AC81;
-	text-align: center;
-    width: fit-content;
+	color:#3B6CAA;
+	background-color: #FFDB00;
     padding: 15px 20px 10px 20px;
-    margin: auto auto 30px auto;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    font-size: 2rem;
-    -webkit-box-shadow: -10px 5px 1px 0 #D7D7D7;
-	box-shadow: -10px 5px 1px 0 #D7D7D7;
+    font-size: 2.1rem;
 }
 
 
