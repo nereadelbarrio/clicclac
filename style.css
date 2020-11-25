@@ -3389,8 +3389,12 @@ hr {
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
 #actividad .workspace.ordenar .js-rank-item {
-    border: 2px solid #ffcf01;
+    border: none;
     background: #fff;
+    background: #0072BB;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Conv_OpenDyslexic-Regular';
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
