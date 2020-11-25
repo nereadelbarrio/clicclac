@@ -1566,8 +1566,13 @@ a:hover, a:active, a:focus {
 .bck-title1 {
 	color:#3B6CAA;
 	background-color: #FFDB00;
-    padding: 15px 20px 10px 20px;
-    font-size: 2.1rem;
+    padding: 10px 15px 10px 15px;
+    font-size: 2.5rem;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
 }
 
 /*TITULO 2*/
@@ -2221,11 +2226,18 @@ a:hover, a:active, a:focus {
 
 /*LISTA DESORDENADA 4*/
 
+
 .texto_curso .bck-ul4 li,
 .workspace .bck-ul4 li ul li,
 .cke_contents .bck-ul4 li {
-	font-family:'Conv_AndikaNewBasic-Regular',Sans-Serif;
-	color: #00AC84;
+	font-weight: normal;
+	color: #E94859;
+	margin-left: -15px;
+	padding-left: 80px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+
 }
 
 .texto_curso .bck-ul4 li:before,
@@ -2233,11 +2245,26 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ul4 li:before {
     width: 6px;
     height: 6px;
-    background-color: #00AC84;
+    background-color: #3B6CAA;
     margin-left: -20px;
+    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
 
+
+
 /*LISTA DESORDENADA 5*/
+
+.texto_curso .bck-ul5 li,
+.workspace .bck-ul5 li ul li,
+.cke_contents .bck-ul5 li {
+    font-weight: normal;
+	color: #E94859;
+	margin-left: -15px;
+	padding-left: 80px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+}
 
 .texto_curso .bck-ul5 li:before,
 .workspace .bck-ul5 li ul li:before,
@@ -2245,9 +2272,11 @@ a:hover, a:active, a:focus {
     width: 6px;
     height: 6px;
     background-color: #fff;
-    border: 1px solid #40A1A8;
+    border: 1px solid #3B6CAA;
     margin-left: -20px;
+    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
 }
+
 
 /*LISTA DESORDENADA 6*/
 
@@ -2490,13 +2519,14 @@ a:hover, a:active, a:focus {
 .bck-box.bck-box7 {
     background: #83D0F5;
     border-radius: 20px;
-    padding: 40px 20px 40px 20px;
+    padding: 20px 10px 20px 10px;
 }
 
 .bck-box7 .bck-content {
 	border-radius: 0;
 	color: #333;
 	background: #fff;
+	padding: 25px;
 }
 
 
@@ -3058,13 +3088,13 @@ hr {
 .bck-enfasis-4 {
 	background-color: #FFDB00;
 	color: #3B6C97;
-	padding: 20px 10px 10px 10px;
+	padding: 0px 5px 0px 5px;
     width: fit-content;
     -webkit-width: fit-content;
     -moz-width: fit-content;
     -ms-width: fit-content;
     -o-width: fit-content;
-    border: 4px solid #FFCF01;
+    border: 4px solid #FFDB00;
     border-radius: 155px 55px 125px 55px/55px 125px 55px 155px;
 }
 
