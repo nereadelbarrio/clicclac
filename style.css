@@ -3108,6 +3108,7 @@ hr {
 .bck-enfasis-9 {
 	color: #fff;
 	background: #009FE3;
+	padding: 1px 10px 1px 5px;
 }
 
 .bck-enfasis-9:after {
@@ -3117,6 +3118,8 @@ hr {
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding: 20px;
+	margin-top: -7px;
+    margin-left: 10px;
 }
 
 .bck-enfasis-10 {
