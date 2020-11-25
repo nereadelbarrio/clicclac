@@ -3102,11 +3102,21 @@ hr {
 }
 
 .bck-enfasis-8 {
-	color: #75AF5E;
+	color: #76B82A;
 }
 
 .bck-enfasis-9 {
-	color: #00AA8A;
+	color: #fff;
+	background: #009FE3;
+}
+
+.bck-enfasis-9:after {
+	content: "";
+	background-image: url(images/after_enfasis9.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 20px;
 }
 
 .bck-enfasis-10 {
