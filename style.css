@@ -1890,7 +1890,7 @@ a:hover, a:active, a:focus {
 	padding-left: 80px;
 	font-size: 2.3rem;
 	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
-	}
+}
 
 .content .bck-ol3 li:before,
 .cke_contents .bck-ol3 li:before {
@@ -1917,12 +1917,12 @@ a:hover, a:active, a:focus {
 .content .bck-ol4 li,
 .cke_contents .bck-ol4 li {
 	font-weight: normal;
-	color: #fff;
+	color: #3B6CAA;
 	margin-left: -10px;
-	padding-left: 60px;
+	padding-left: 80px;
 	font-size: 2.3rem;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
-	}
+	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+}
 
 
 .content .bck-ol4 li:before,
@@ -1930,21 +1930,20 @@ a:hover, a:active, a:focus {
     content: counter(bck-li-counter) ".";
     position: absolute;
     margin-top: 4px;
-    left: 20px;
+    margin-left: 45px;
     display: inline-block;
     width: 40px;
     height: 0px;
     border: 0px;
     background: transparent;
-    color: #fff;
+    color: #76B82A;
     font-size: 2.3rem;
     font-weight: bold;
     text-align: center;
     text-shadow: none;
     transform: none;
-    margin-right: -10px;
-    font-family: 'Conv_OpenDyslexic-Bold',Sans-Serif;
-    }
+    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+   }
 
 /*LISTA ORDENADA 5*/
 
@@ -3060,10 +3059,8 @@ hr {
 }
 
 .bck-enfasis-2 {
-	background-color: #EA368E;
-	color: #FFCF01;
-	font-size: 2.1rem;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
+	color: #009FE3;
+    font-family: 'Conv_OpenDyslexic-Regular';
 }
 
 .bck-enfasis-3 {
@@ -3105,7 +3102,7 @@ hr {
 }
 
 .bck-enfasis-10 {
-	color: #00AEEF;
+	color: #009FE3;
 }
 
 .bck-enfasis-11 {
