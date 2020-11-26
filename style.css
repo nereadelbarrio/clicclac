@@ -1932,8 +1932,14 @@ a:hover, a:active, a:focus {
 
 /*Desplegable 1*/
 
+.bck-dropdown1-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.7rem;
+    padding-left: 10px;
+}
+
 .bck-dropdown1-button {
-	font-size: 1.5rem;
 	padding: 10px;
 	background-color: #EDEDED;
 }
