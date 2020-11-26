@@ -2620,6 +2620,10 @@ a:hover, a:active, a:focus {
     width: 93%;
 }
 
+.bck-box12 .bck-content.video-js {
+	border-radius: 10px;
+}
+
 
 /*Caja 13*/
 
