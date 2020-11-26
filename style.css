@@ -2357,25 +2357,6 @@ a:hover, a:active, a:focus {
     width: 122.1%;
 }
 
-.bck-box1 .bck-title {
-	color: #fff;
-    background: #EA368E;
-    width: fit-content;
-    padding: 30px 25px 0px 25px;
-    font-family: 'Conv_Plakkaat',Sans-Serif;
-    font-size: 3.5rem;
-    margin-left: -50px;
-    margin-top: -15px;
-}
-
-.bck-box1 .bck-content{
-	background: #FFCF01;
-	font-family: 'Conv_ChelseaMarket-Regular';
-	color: #F3A1C1;
-	font-size: 4.8rem;
-	-webkit-text-stroke: #ea368e 3px;
-}
-
 .bck-box1 .bck-content .player.audio {
 	padding: 30px;
 }
