@@ -2353,8 +2353,12 @@ a:hover, a:active, a:focus {
 .bck-box.bck-box1 {
 	margin-top: -2.6%;
     position: relative;
-    left: -11%;
-    width: 122.1%;
+    left: -14.5%;
+    width: 129.2%;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
 }
 
 .bck-box1 .bck-content .player.audio {
