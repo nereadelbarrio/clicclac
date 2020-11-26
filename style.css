@@ -2341,6 +2341,7 @@ a:hover, a:active, a:focus {
 
 /*CAJAS*/
 
+/*
 .bck-box {
 	margin: 10px 10px 20px 10px;
     border: 2px solid transparent;
@@ -2348,13 +2349,14 @@ a:hover, a:active, a:focus {
     background: #fff;
     padding: 6px 20px;
 }
+*/
 
 /*Caja 1*/
 .bck-box.bck-box1 {
 	margin-top: -2.6%;
     position: relative;
-    left: -14.5%;
-    width: 129.2%;
+    left: -13.2%;
+    width: 126.6%;
     padding: 0;
     margin: 0;
     background: transparent;
