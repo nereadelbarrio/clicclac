@@ -147,15 +147,6 @@
 	.content_type_clase_clicclacdemo #actividad .content .header .title h3 {
 		position: relative;
     	display: block;
-    	width: fit-content;
-    	margin: auto;
-    	font-size: 3.3rem;
-    	text-align: center;
-    	font-weight: 100;
-    	font-family: 'Conv_ChelseaMarket-Regular';
-    	color: #FAD8E4;
-    	-webkit-text-stroke: #EA368E 2px;
-    	background: #fff;
     	padding: 5px 15px 5px 15px;
 	}
 
