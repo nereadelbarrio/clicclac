@@ -2587,26 +2587,34 @@ a:hover, a:active, a:focus {
 
 .bck-box.bck-box12:before {
 	content: "";
-	background-image: url(images/before_video.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	padding: 40px;
-	position: absolute;
+    background-image: url(images/before_video.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 55px;
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -15px;
+    z-index: 1;
 }
 
 .bck-box12 .bck-title {
 	background-color: #FFDB00;
-	text-align: right;
-	padding-top: 15px;
+    position: absolute;
+    text-align: right;
+    padding: 25px 25px 15px 25px;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-
+    margin-top: 20%;
+    right: 0;
+    width: 20%;
 }
 
 .bck-box12 .bck-content {
 	background-color: #FFF8DA;
-	padding: 15px;
+    padding: 20px;
+    padding-right: 10%;
     border-radius: 20px;
+    width: 93%;
 }
 
 
