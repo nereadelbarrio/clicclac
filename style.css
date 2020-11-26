@@ -2579,33 +2579,34 @@ a:hover, a:active, a:focus {
 /*Caja 12*/
 
 .bck-box.bck-box12 {
-	background-color: #fff;
 	padding: 20px;
 	margin-bottom: 20px;
 	border: none;
 
 }
 
+.bck-box.bck-box12:before {
+	content: "";
+	background-image: url(images/before_video.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 40px;
+	position: absolute;
+}
+
 .bck-box12 .bck-title {
-	background-color: #F3A1C1;
-	border: 2px solid #EA368E;
-	text-align: center;
+	background-color: #FFDB00;
+	text-align: right;
 	padding-top: 15px;
-    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
-    font-family:'Conv_OpenDyslexic-Bold',Sans-Serif;
 
 }
 
 .bck-box12 .bck-content {
-	background-color: #fff;
-	border-bottom: 2px solid #EA368E;
-	border-left: 2px solid #EA368E;
-	border-right: 2px solid #EA368E;
+	background-color: #FFF8DA;
 	padding: 15px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
+    border-radius: 20px;
 }
 
 
