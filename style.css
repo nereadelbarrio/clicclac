@@ -2605,14 +2605,17 @@ a:hover, a:active, a:focus {
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: 20%;
+    margin-right: -50px;
     right: 0;
-    width: 20%;
+    width: 30%;
+    -webkit-box-shadow: 5px 2px 7px 0px #A8A8A8;
+    box-shadow: 5px 2px 7px 0px #A8A8A8;
 }
 
 .bck-box12 .bck-content {
 	background-color: #FFF8DA;
     padding: 20px;
-    padding-right: 10%;
+    padding-right: 15%;
     border-radius: 20px;
     width: 93%;
 }
