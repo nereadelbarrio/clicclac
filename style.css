@@ -133,26 +133,12 @@
 	}
 
 	.content_type_clase_clicclacdemo #actividad .content .header .title {
-		margin-bottom: 30px;
-    	text-align: center;
-    	background: #FAD8E4;
+		margin-bottom: 10px;
     	padding: 0;
-    	width: 100%;
     	margin-left: 0px;
     	margin-top: 10px;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .header .title:before {
-    	position: absolute;
-    	padding: 40px 20px 10px 20px;
-    	background: #EA368E;
-    	content: 'UNIDAD 2';
-    	left: 25px;
-    	font-size: 1.8rem;
-    	margin-top: -50px;
-    	color: #fff;
-    	font-family: 'Conv_Plakkaat',Sans-Serif;
-}
 
 	.content_type_clase_clicclacdemo #actividad .content .slide-concatenate .header .title {
 		display: none;
