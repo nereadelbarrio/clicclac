@@ -606,18 +606,15 @@ a:hover, a:active, a:focus {
     -moz-box-shadow: none;
     box-shadow: none;
     text-shadow: none;
+    font-family: 'Conv_Chaloops-Medium';
 }
 
 /*TITULO 2*/
 
 .bck-title2 {
 	font-size: 3.5rem;
-	font-family: 'Conv_ChelseaMarket-Regular';
-	color: #8ACFB8;
-	-webkit-text-stroke: #00AC81 2px;
-	margin-bottom: 30px;
-	text-align: center;
-
+	font-family: 'Conv_Chaloops-Medium';
+	color: #3B6CAA;
 }
 
 /*TITULO 3*/
