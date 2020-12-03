@@ -1380,6 +1380,7 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ul8 li {
 	color: #E94859;
 	font-family: 'Conv_ChalkboardSE';
+	padding-left: 20px;
 }
 
 .texto_curso .bck-ul8 li:before,
@@ -1387,10 +1388,12 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ul8 li:before {
 	content: "-";
     width: 6px;
-    height: 6px;
+    height: 1px;
     background-color: transparent;
     margin-left: -20px;
     color: #E94859;
+    position: absolute;
+    margin-top: 0;
 }
 
 /*LISTA DESORDENADA 9*/
