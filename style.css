@@ -1385,7 +1385,7 @@ a:hover, a:active, a:focus {
 .texto_curso .bck-ul8 li:before,
 .workspace .bck-ul8 li ul li:before,
 .cke_contents .bck-ul8 li:before {
-	content: "-"
+	content: "-";
     width: 6px;
     height: 6px;
     background-color: transparent;
