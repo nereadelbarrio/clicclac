@@ -600,7 +600,7 @@ a:hover, a:active, a:focus {
 	color:#3B6CAA;
 	background-color: #FFDB00;
     padding: 10px 15px 10px 15px;
-    font-size: 2.5rem;
+    font-size: 3rem;
     border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -612,7 +612,7 @@ a:hover, a:active, a:focus {
 /*TITULO 2*/
 
 .bck-title2 {
-	font-size: 3.5rem;
+	font-size: 4em;
 	font-family: 'Conv_Chaloops-Medium';
 	color: #3B6CAA;
 }
@@ -972,34 +972,37 @@ a:hover, a:active, a:focus {
 .content .bck-ol5 li,
 .cke_contents .bck-ol5 li {
 	font-weight: normal;
-	color: #333;
-	margin-left: -10px;
-	padding-left: 80px;
-	font-size: 2.3rem;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
-	}
+    color: #3B6CAA;
+    padding-left: 0;
+    font-size: 2.1rem;
+    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    border-bottom: 2px dashed #76B82A;
+    margin-left: 40px;
 
+}
 
 .content .bck-ol5 li:before,
 .cke_contents .bck-ol5 li:before {
-	content: counter(bck-li-counter, lower-alpha) ".";
+    content: counter(bck-li-counter);
+    color: #fff;
+    background: #009FE3;
+    padding: 0px 2px 2px 2px;
+    border-radius: 100%;
     position: absolute;
     margin-top: 4px;
-    left: 40px;
-    display: inline-block;
-    width: 40px;
-    height: 0px;
-    border: 0px;
-    background: transparent;
-    color: #333;
-    font-size: 2.3rem;
-    font-weight: bold;
+    margin-left: -40px;
+    width: 33px;
     text-align: center;
+    height: auto;
+    font-size: 2.1rem;
     text-shadow: none;
     transform: none;
-    margin-right: -10px;
-    font-family: 'Conv_OpenDyslexic-Bold',Sans-Serif;
-    }
+    font-family: 'Conv_Plakkaat',Sans-Serif;
+    box-shadow: inherit;
+    border: inherit;
+    line-height: inherit;
+}
+
 
 
 /*LISTA ORDENADA 6*/
@@ -1651,25 +1654,36 @@ a:hover, a:active, a:focus {
 }
 
 .bck-box13 .bck-title {
-	background-color: #FFE493;
-	border: 2px solid #FFCF01;
-	text-align: center;
+	background-color: #fff;
+	border: none;
+	text-align: left;
 	padding-top: 15px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    font-family:'Conv_OpenDyslexic-Bold',Sans-Serif;
+    border-radius: 0;
+    font-family:'Barrio-Regular';
+    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
+    box-shadow: 5px 8px 10px 5px #D7D7D7;
+    -webkit-width: fit-content;
+    -moz-width: fit-content;
+    -o-width: fit-content;
+    -ms-width: fit-content;
+    width: fit-content;
 
 }
 
 .bck-box13 .bck-content {
 	background-color: #fff;
-	border-bottom: 2px solid #FFCF01;
-	border-left: 2px solid #FFCF01;
-	border-right: 2px solid #FFCF01;
+	border: none;
 	padding: 15px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-
+    border-radius: 0px;
+    font-family: 'Conv_Chaloops-Medium';
+    font-size: 3rem;
+    -webkit-width: fit-content;
+    -moz-width: fit-content;
+    -o-width: fit-content;
+    -ms-width: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-top: 15px;
 }
 
 /*Caja 14*/
