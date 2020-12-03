@@ -612,7 +612,7 @@ a:hover, a:active, a:focus {
 /*TITULO 2*/
 
 .bck-title2 {
-	font-size: 4em;
+	font-size: 2.8em;
 	font-family: 'Conv_Chaloops-Medium';
 	color: #3B6CAA;
 }
@@ -862,7 +862,7 @@ a:hover, a:active, a:focus {
     transform: none;
     font-family: 'Conv_Plakkaat',Sans-Serif;
     box-shadow: inherit;
-    border: inherit;
+    border: none;
     line-height: inherit;
 }
 
@@ -898,7 +898,7 @@ a:hover, a:active, a:focus {
     transform: none;
     font-family: 'Conv_Plakkaat',Sans-Serif;
     box-shadow: inherit;
-    border: inherit;
+    border: none;
     line-height: inherit;
 }
 
@@ -976,7 +976,7 @@ a:hover, a:active, a:focus {
     padding-left: 0;
     font-size: 2.1rem;
     font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
-    border-bottom: 2px dashed #76B82A;
+    border-bottom: none;
     margin-left: 40px;
 
 }
@@ -999,7 +999,7 @@ a:hover, a:active, a:focus {
     transform: none;
     font-family: 'Conv_Plakkaat',Sans-Serif;
     box-shadow: inherit;
-    border: inherit;
+    border: none;
     line-height: inherit;
 }
 
@@ -1668,25 +1668,28 @@ a:hover, a:active, a:focus {
     -ms-width: fit-content;
     width: fit-content;
     margin-left: 25px;
+    font-size: 3rem
+    
 }
 
 
 .bck-box13 .bck-title:before {
 	content: "";
-	background-image: url(images/flecha_roja_clicclac.png);
-	padding: 20px;
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: absolute;
-	margin-left: -30px;
-    margin-top: 10px;
+    background-image: url(images/flecha_roja_clicclac.png);
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    margin-left: 46px;
+    margin-top: 80px;
+    transform: rotate(-80deg);
 }
 
 
 .bck-box13 .bck-content {
 	background-color: #FFDB00;
 	border: none;
-	padding: 15px;
+	padding: 5px 15px;
     border-radius: 0px;
     font-family: 'Conv_Chaloops-Medium';
     font-size: 3rem;
