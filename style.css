@@ -1667,8 +1667,18 @@ a:hover, a:active, a:focus {
     -o-width: fit-content;
     -ms-width: fit-content;
     width: fit-content;
-
 }
+
+
+.bck-box13 .bck-title:before {
+	content: "";
+	background-image: url(images/flecha_roja_clicclac.png);
+	padding: 20px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+}
+
 
 .bck-box13 .bck-content {
 	background-color: #fff;
