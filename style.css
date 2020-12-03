@@ -271,7 +271,7 @@
 
 	#actividad .player.audio {
 	    border-radius: 0px;
-	    background: url(images/icono_audio.png) center center / cover;
+	    background: url(images/icono_audio_clicclac.png) center center / cover;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -2320,6 +2320,8 @@ hr {
 
 #actividad .player.audio {
 	background: url(images/icono_audio_clicclac.png) center center / cover;
+	height: 32px !important;
+    width: 32px;
 }
 
 
