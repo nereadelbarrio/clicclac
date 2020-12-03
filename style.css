@@ -1659,7 +1659,7 @@ a:hover, a:active, a:focus {
 	text-align: left;
 	padding-top: 15px;
     border-radius: 0;
-    font-family:'Barrio-Regular';
+    font-family: 'Conv_Barrio-Regular';
     -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
     box-shadow: 5px 8px 10px 5px #D7D7D7;
     -webkit-width: fit-content;
@@ -1681,7 +1681,7 @@ a:hover, a:active, a:focus {
 
 
 .bck-box13 .bck-content {
-	background-color: #fff;
+	background-color: #FFDB00;
 	border: none;
 	padding: 15px;
     border-radius: 0px;
