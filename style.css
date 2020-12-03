@@ -1331,35 +1331,66 @@ a:hover, a:active, a:focus {
 
 /*LISTA DESORDENADA 6*/
 
+.texto_curso .bck-ul6 li,
+.workspace .bck-ul6 li ul li,
+.cke_contents .bck-ul6 li {
+	font-weight: normal;
+	margin-left: -15px;
+	padding-left: 80px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
 .texto_curso .bck-ul6 li:before,
 .workspace .bck-ul6 li ul li:before,
 .cke_contents .bck-ul6 li:before {
     width: 6px;
     height: 6px;
-    background-color: #E72186;
+    background-color: #3B6CAA;
     margin-left: -20px;
 }
 
 /*LISTA DESORDENADA 7*/
+.texto_curso .bck-ul7 li,
+.workspace .bck-ul7 li ul li,
+.cke_contents .bck-ul7 li {
+    font-weight: normal;
+	margin-left: -15px;
+	padding-left: 80px;
+	font-size: 1.6rem;
+	margin-bottom: 10px;
+}
+
 .texto_curso .bck-ul7 li:before,
 .workspace .bck-ul7 li ul li:before,
 .cke_contents .bck-ul7 li:before {
     width: 6px;
     height: 6px;
     background-color: #fff;
-    border: 1px solid #E72186;
+    border: 1px solid #3B6CAA;
     margin-left: -20px;
 }
 
+
+
 /*LISTA DESORDENADA 8*/
+
+.texto_curso .bck-ul8 li,
+.workspace .bck-ul8 li ul li,
+.cke_contents .bck-ul8 li {
+	color: #E94859;
+	font-family: 'Conv_ChalkboardSE';
+}
 
 .texto_curso .bck-ul8 li:before,
 .workspace .bck-ul8 li ul li:before,
 .cke_contents .bck-ul8 li:before {
+	content: "-"
     width: 6px;
     height: 6px;
-    background-color: #A4C840;
+    background-color: transparent;
     margin-left: -20px;
+    color: #E94859;
 }
 
 /*LISTA DESORDENADA 9*/
@@ -1532,6 +1563,7 @@ a:hover, a:active, a:focus {
     width: 105%;
     color: #E94859;
     position: relative;
+    font-size: 2.2rem;
 	background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%),
 				  -webkit-radial-gradient(#cfcfc3 38%, transparent 24%),
 				  -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%),
