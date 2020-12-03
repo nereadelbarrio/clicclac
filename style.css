@@ -640,15 +640,8 @@ a:hover, a:active, a:focus {
 /*TITULO 3*/
 
 .bck-title3 {
-	color: #333;
-	font-weight: bold;
-	margin-bottom: 30px;
-    font-size: 2.3rem;
-    padding: 20px 10px 10px 10px;
-    width: fit-content;
-    border: 4px solid #FFCF01;
-    border-radius: 155px 55px 125px 55px/55px 125px 55px 155px;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+	font-size: 3.5rem;
+	font-family: 'Conv_Chaloops-Medium';
 }
 
 /*TITULO 4*/
