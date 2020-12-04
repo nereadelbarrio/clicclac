@@ -1756,14 +1756,14 @@ a:hover, a:active, a:focus {
 /*Caja 14*/
 
 .bck-box.bck-box14 {
-    background: #FFF2D1;
+    background: transparent;
     padding-top: 30px;
     margin-bottom: 30px;
     border: 30px solid transparent;
-  	-moz-border-image:url(images/border_cajajoue_clicclac.png) 30 30 round;
- 	 -webkit-border-image:url(images/border_cajajoue_clicclac.png) 30 30 round;
-  	-o-border-image:url(images/border_cajajoue_clicclac.png) 30 30 round;
-  	border-image:url(images/border_cajajoue_clicclac.png) 30 30 round;
+  	-moz-border-image:url(images/border_cajajoue_entero_clicclac.png) 30 30 round;
+ 	 -webkit-border-image:url(images/border_cajajoue_entero_clicclac.png) 30 30 round;
+  	-o-border-image:url(images/border_cajajoue_entero_clicclac.png) 30 30 round;
+  	border-image:url(images/border_cajajoue_entero_clicclac.png) 30 30 round;
 }
 
 .bck-box.bck-box14:before {
