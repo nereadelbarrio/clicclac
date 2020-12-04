@@ -1757,15 +1757,15 @@ a:hover, a:active, a:focus {
 
 .bck-box.bck-box14 {
     background: transparent;
-    padding-top: 30px;
+    padding: 0px;
     margin-bottom: 30px;
-    border: 30px solid transparent;
+    border: 25px solid transparent;
   	-moz-border-image:url(images/border_cajajoue_entero_clicclac.png);
  	 -webkit-border-image:url(images/border_cajajoue_entero_clicclac.png);
   	-o-border-image:url(images/border_cajajoue_entero_clicclac.png);
   	border-image:url(images/border_cajajoue_entero_clicclac.png);
   	border-image-repeat: round;
-    border-image-slice: 68;
+    border-image-slice: 80;
 }
 
 .bck-box.bck-box14:before {
@@ -1780,9 +1780,10 @@ a:hover, a:active, a:focus {
 }
 
 .bck-box14 .bck-title {
-	color: #EA368E;
+    color: #EA368E;
     font-family: 'Conv_Chaloops-Medium';
-    font-size: 3rem;
+    font-size: 2.3rem;
+    padding-left: 50px;
 }
 
 /*Caja 15*/
