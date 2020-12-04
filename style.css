@@ -1760,10 +1760,10 @@ a:hover, a:active, a:focus {
     padding-top: 30px;
     margin-bottom: 30px;
     border: 30px solid transparent;
-  	-moz-border-image:url(images/border_cajajoue_entero2_clicclac.png);
- 	 -webkit-border-image:url(images/border_cajajoue_entero2_clicclac.png);
-  	-o-border-image:url(images/border_cajajoue_entero2_clicclac.png);
-  	border-image:url(images/border_cajajoue_entero2_clicclac.png);
+  	-moz-border-image:url(images/border_cajajoue_entero_clicclac.png);
+ 	 -webkit-border-image:url(images/border_cajajoue_entero_clicclac.png);
+  	-o-border-image:url(images/border_cajajoue_entero_clicclac.png);
+  	border-image:url(images/border_cajajoue_entero_clicclac.png);
   	border-image-repeat: round;
     border-image-slice: 68;
 }
