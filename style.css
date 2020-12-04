@@ -1770,10 +1770,13 @@ a:hover, a:active, a:focus {
 
 .bck-box.bck-box14:before {
 	content: "";
-	background-image: url(images/caja_joue_clicclac.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	padding: 30px;
+    background-image: url(images/caja_joue_clicclac.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 70px;
+    position: absolute;
+    margin-top: -115px;
+    margin-left: -115px;
 }
 
 .bck-box14 .bck-title {
