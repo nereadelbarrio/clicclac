@@ -644,6 +644,8 @@ a:hover, a:active, a:focus {
 	font-family: 'Conv_Chaloops-Medium';
 }
 
+
+
 /*TITULO 4*/
 .bck-title4 {
 	color: #EA368E;
@@ -1756,21 +1758,21 @@ a:hover, a:active, a:focus {
 .bck-box.bck-box14 {
     background: #FFF2D1;
     padding-top: 30px;
-    margin-bottom: 40px;
-    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-	box-shadow: 5px 5px 8px 5px #D7D7D7;
-	background-image: -webkit-radial-gradient(#d6d5d6 30%, transparent 20%), -webkit-radial-gradient(#cfcfc3 38%, transparent 24%), -webkit-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 100%);
-    background-image: -moz-radial-gradient(#d6d5d6 30%, transparent 20%), -moz-radial-gradient(#cfcfc3 38%, transparent 24%), -moz-linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-    background-image: radial-gradient(#d6d5d6 30%, transparent 20%), radial-gradient(#cfcfc3 38%, transparent 24%), linear-gradient(top, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0) 95%, hsla(180,75%,50%,.1) 95%, hsla(180,75%,50%,.1) 100%);
-    background-position: 4px 1px, 4px 0px, 50% 0px;
-    background-repeat: repeat-x, repeat-x, repeat;
-    background-size: 30px 30px, 30px 30px, 30px 30px;
+    margin-bottom: 30px;
+}
+
+.bck-box.bck-box14:before {
+	content: "";
+	background-image: url(images/caja_joue_clicclac.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 30px;
 }
 
 .bck-box14 .bck-title {
 	color: #EA368E;
-    font-family: 'Conv_Plakkaat',Sans-Serif;
-    font-size: 2.5rem;
+    font-family: 'Conv_Chaloops-Medium';
+    font-size: 3rem;
 }
 
 /*Caja 15*/
@@ -2422,6 +2424,27 @@ hr {
 
 /*QUERIES*/
 
+@media screen and (max-width: 1024px) {
+	.bck-box13 .bck-title:before {
+	margin-left: 15px;
+    margin-top: 45px;
+	}
+}
+
+@media screen and (max-width: 812px) {
+	.bck-box13 .bck-title:before {
+	margin-left: -15px;
+    margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.bck-box13 .bck-title:before {
+		margin-left: -35px;
+    	margin-top: 75px;
+	}
+}
+
 @media screen and (max-width: 670px) {
   .bck-box.bck-box1 {
     padding: 15px 20px 5px 25px;
@@ -2527,6 +2550,20 @@ hr {
     left: -19.4%;
 }
 
+}
+
+
+@media screen and (max-width: 375px) {
+	.bck-box12 .bck-title {
+		margin-right: -20px;
+		padding: 25px 5px 15px 5px;
+		font-size: 1.3rem;
+	}
+
+	.bck-box13 .bck-title:before {
+		margin-left: -15px;
+    	margin-top: 100px;
+	}
 }
 
 /**/
