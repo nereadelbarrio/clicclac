@@ -2055,6 +2055,14 @@ a:hover, a:active, a:focus {
 
 /*------------------------------------DESPLEGABLES--------------------------------*/
 
+.bck-dropdown-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    float: right;
+}
+
+
 /*Desplegable 1*/
 
 .bck-dropdown1-titulo {
@@ -2068,6 +2076,45 @@ a:hover, a:active, a:focus {
 	padding: 10px;
 	background-color: #EDEDED;
 }
+
+/*------*/
+
+.bck-dropdown.bck-dropdown1 {
+	background-color: #9D9D9C;
+	border-radius: 0;
+	border: none;
+}
+
+.bck-dropdown1 .bck-dropdown-icon {
+	background-color: #9D9D9C;
+	display: inline-block;
+	float: right;
+}
+
+.bck-dropdown1 .fa-chevron-up:before, 
+.bck-dropdown1 .fa-chevron-down:before {
+    font-size: 1.8rem;
+}
+
+.bck-dropdown1 .bck-dropdown-content {
+    background-color: #fff;
+    border: 1px solid #9d9d9c;
+    padding-left: 20px;
+    max-height: 800%;
+}
+
+.bck-dropdown1 .bck-dropdown-titulo {
+    font-size: 1.8rem;
+    padding-left: 11px;
+}
+
+.bck-dropdown1 .bck-dropdown-icon > .fa {
+    border: 0px solid white;
+    padding: 0px;
+    padding-right: 7px;
+    margin-left: -3px;
+}
+
 
 /*HR*/
 hr {
