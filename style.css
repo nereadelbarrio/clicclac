@@ -266,8 +266,8 @@
 	/*fill in the blank*/
 
 	.fillblanks-draggable-wrapper .response {
-	    border: 0px solid #d8d8d8;
-	    background: #e5e5e5;
+	     border: none;
+    	background: #FFDB00;
 	}
 
 	#actividad .player.audio {
@@ -534,7 +534,7 @@ body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover,
 
 a:hover, a:active, a:focus {
     outline: 0;
-    color: #00ac81;
+    color: #3B6CAA;
     text-decoration: none;
 }
 
@@ -2654,23 +2654,37 @@ hr {
 /**/
 
 
-/* Slides */
+/* Slides actividades */
 
 #actividad .workspace.multiple-choice .opcion,
 #actividad .workspace.matching .opcion,
 #actividad .workspace.ordenar .js-rank-item,
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok) {
-    border: none;
     background: #fff;
-    background: #0072BB;
-    color: #fff;
+    color: #3B6CAA;
+    border: 2px solid #3B6CAA;
     border-radius: 20px;
-    font-family: 'Conv_OpenDyslexic-Regular';
+}
+
+#actividad .workspace.chooseblanks .inline-answer a.selected:not(.respuesta_ok):not(.respuesta_ko):not(.solucion) {
+	border-bottom: 2px solid;
+    border-radius: 0;
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #ffcf01;
+    border: 2px solid #3B6CAA;
     padding-top: 10px;
+}
+
+#actividad .workspace.chooseblanks select {
+    border: 0;
+    border-bottom: 2px solid #3b6caa;
+}
+
+#actividad .workspace.clasificar .clasificar_lista .classify-item {
+    border: 0px solid #d8d8d8;
+    background: #FFDB00;
+    padding-top: 5px;
 }
 
 
