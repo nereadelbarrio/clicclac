@@ -191,7 +191,8 @@
 	.content_type_clase_clicclacdemo #actividad .content .header .title h3 {
 		position: relative;
     	display: block;
-    	padding: 5px 15px 5px 15px;
+    	padding: 5px 15px 5px 95px;
+    	font-size: 2.5rem;
 	}
 
 	.content_type_clase_clicclacdemo #actividad .content .seccion_rosa .header .title h3 {
