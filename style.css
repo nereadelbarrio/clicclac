@@ -2081,6 +2081,13 @@ a:hover, a:active, a:focus {
 
 /*------------------------------------DESPLEGABLES--------------------------------*/
 
+.bck-dropdown-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: inherit;
+    padding-left: 10px;
+}
+
 .bck-dropdown-icon {
     display: inline-block;
     width: 40px;
@@ -2094,7 +2101,6 @@ a:hover, a:active, a:focus {
 .bck-dropdown1-titulo {
     display: inline-block;
     vertical-align: middle;
-    font-size: 1.7rem;
     padding-left: 10px;
 }
 
@@ -2134,9 +2140,8 @@ a:hover, a:active, a:focus {
 }
 
 .bck-dropdown1 .bck-dropdown-titulo {
-    font-size: 1.68rem;
-    padding-left: 35px;
     font-size: 1.6rem;
+    padding-left: 35px;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo:before {
@@ -2564,54 +2569,7 @@ hr {
 	}
 }
 
-@media screen and (max-width: 670px) {
-  .bck-box.bck-box1 {
-    padding: 15px 20px 5px 25px;
-}
 
-.bck-box1 .bck-content {
-    font-size: 3.5rem;
-    -webkit-text-stroke: #ea368e 1.5px;
-}
-
-.bck-box1 .bck-content .player.audio {
-    padding: 20px;
-}
-
-.bck-box1 .bck-title {
-    font-size: 1.8rem;
-}
-
-.bck-box.bck-box2 {
-    padding: 15px 20px 5px 25px;
-}
-
-.bck-box2 .bck-content {
-    font-size: 3.5rem;
-    -webkit-text-stroke: #00AC81 1.5px;
-}
-
-.bck-box2 .bck-content .player.audio {
-    padding: 20px;
-}
-
-.bck-box2 .bck-title {
-    font-size: 1.8rem;
-}
-
-}
-
-
-
-
-
-@media screen and (max-width: 375px) {
-
-
-
-}
-
-/**/
 
 @media screen and (max-width: 480px) {
 
