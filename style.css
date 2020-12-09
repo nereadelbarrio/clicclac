@@ -1545,7 +1545,7 @@ a:hover, a:active, a:focus {
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
     border: 1px solid #333;
-    border: 30px solid transparent;
+    border-top: 30px solid transparent;
   -moz-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
   -webkit-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
   -o-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
