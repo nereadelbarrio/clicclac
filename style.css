@@ -2081,7 +2081,7 @@ a:hover, a:active, a:focus {
 
 .bck-dropdown.bck-dropdown1 {
 	background-color: #EDEDED;
-	border-radius: 0;
+	border-radius: 20px;
 	border: none;
 }
 
@@ -2101,12 +2101,15 @@ a:hover, a:active, a:focus {
     border: 2px solid #ededed;
     padding-left: 20px;
     padding-bottom: 0px;
-    font-size: 1.6rem;    
+    font-size: 1.6rem; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}   
 }
 
 .bck-dropdown1 .bck-dropdown-titulo {
     font-size: 1.68rem;
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo:before {
@@ -2117,7 +2120,7 @@ a:hover, a:active, a:focus {
     padding: 15px;
     position: absolute;
     margin-left: -25px;
-    margin-top: -2px;
+    margin-top: -4px;
 }
 
 .bck-dropdown1 .bck-dropdown-icon > .fa {
