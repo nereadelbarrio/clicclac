@@ -1555,7 +1555,11 @@ a:hover, a:active, a:focus {
     border-image-slice: 80;
     */
     background-image: url(images/fondo_caja8_anilla_clicclac.png);
-    background-size: contain;
+    background-size: auto;
+    background-repeat-y: no-repeat;
+    background-repeat-x: repeat;
+    background-position-x: 20px;
+    background-position-y: -13px;
 }
 
 .bck-box6 .bck-content {
