@@ -1540,16 +1540,18 @@ a:hover, a:active, a:focus {
     padding-left: 10px;
     z-index: 1;
     margin-bottom: 55px;
-    background: #90BED7;
+    background-color: : #90BED7;
     border-radius: 20px;
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
     border: 1px solid #333;
-    border-top: 30px solid transparent;
-  -moz-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
-  -webkit-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
-  -o-border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat; 
-  border-image:url(images/fondo_caja8_anilla_clicclac.png) 30 30 repeat;
+    border-top: 20px solid transparent;
+  	-moz-border-image:url(images/fondo_caja8_anilla_clicclac.png);
+ 	 -webkit-border-image:url(images/fondo_caja8_anilla_clicclac.png);
+  	-o-border-image:url(images/fondo_caja8_anilla_clicclac.png);
+  	border-image:url(images/fondo_caja8_anilla_clicclac.png);
+  	border-image-repeat: repeat;
+    border-image-slice: 80;
 }
 
 .bck-box6 .bck-content {
