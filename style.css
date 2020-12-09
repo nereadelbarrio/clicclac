@@ -2105,7 +2105,7 @@ a:hover, a:active, a:focus {
 
 .bck-dropdown1 .bck-dropdown-titulo {
     font-size: 1.8rem;
-    padding-left: 11px;
+    padding-left: 25px;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo:before {
@@ -2115,9 +2115,8 @@ a:hover, a:active, a:focus {
     background-size: contain;
     padding: 15px;
     position: absolute;
-    margin-left: -40px;
-    margin-top: -10px;
-    left: 0;
+    margin-left: -25px;
+    margin-top: -2px;
 }
 
 .bck-dropdown1 .bck-dropdown-icon > .fa {
