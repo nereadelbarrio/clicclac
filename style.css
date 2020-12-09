@@ -1546,19 +1546,11 @@ a:hover, a:active, a:focus {
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
     border: 1px solid #333;
-    /*
-    background-image: url(images/fondo_caja8_anilla_clicclac.png);
-    background-size: 4.5%;
-    background-repeat-y: no-repeat;
-    background-repeat-x: repeat;
-    background-position-x: 25px;
-    background-position-y: -15px;
-    */
 }
 
 .bck-box.bck-box6:before {
 	content: "";
-    background-image: url(images/fondo_caja8_anilla_clicclac.png);
+    background-image: url(images/fondo_caja8_anilla2_clicclac.png);
     background-size: contain;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
