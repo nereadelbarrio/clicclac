@@ -1539,27 +1539,32 @@ a:hover, a:active, a:focus {
     padding-bottom: 10px;
     padding-left: 10px;
     z-index: 1;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
+    margin-top: 40px;
     background-color: #90BED7;
     border-radius: 20px;
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
+    /*
     background-image: url(images/fondo_caja8_anilla_clicclac.png);
-    background-size: auto;
+    background-size: 4.5%;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
     background-position-x: 25px;
     background-position-y: -15px;
+    */
 }
 
 .bck-box.bck-box6:before {
 	content: "";
 	background-image: url(images/fondo_caja8_anilla_clicclac.png);
-    background-size: auto;
+    background-size: contain;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
-    background-position-x: 25px;
-    background-position-y: -15px;
+    padding: 17px;
+    width: 98%;
+    position: absolute;
+    margin-top: -20px;
 }
 
 .bck-box6 .bck-content {
