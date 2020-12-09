@@ -1656,7 +1656,7 @@ a:hover, a:active, a:focus {
 
 .bck-box.bck-box12:before {
 	content: "";
-    background-image: url(images/before_video.png);
+    background-image: url(images/before_video_clicclac.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 55px;
@@ -2249,7 +2249,7 @@ hr {
 
 .bck-enfasis-9:after {
 	content: "";
-	background-image: url(images/after_enfasis9.png);
+	background-image: url(images/after_enfasis9_clicclac.png);
 	position: absolute;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -2336,63 +2336,70 @@ hr {
 }
 
 .item-container .icon-bocadillo:before {
-	background-image: url(images/icono_bocadillo.png);
+	background-image: url(images/icono_bocadillo_clicclac.png);
 	width: 40px;
     height: 30px;
 }
 
 .item-container .icon-brujula:before {
-	background-image: url(images/icono_brujula.png);
+	background-image: url(images/icono_brujula_clicclac.png);
 	width: 40px;
     height: 30px;
 }
 
 .item-container .icon-fiche:before {
-	background-image: url(images/icono_fiche.png);
+	background-image: url(images/icono_fiche_clicclac.png);
 	width: 55px;
     height: 55px;
 }
 
 .item-container .icon-lapiz:before {
-	background-image: url(images/icono_lapiz.png);
+	background-image: url(images/icono_lapiz_clicclac.png);
 	width: 23px;
     height: 45px;
 }
 
 .item-container .icon-libro:before {
-	background-image: url(images/icono_libro.png);
+	background-image: url(images/icono_libro_clicclac.png);
 	width: 40px;
     height: 35px;
 }
 
 .item-container .icon-lupa:before {
-	background-image: url(images/icono_lupa.png);
+	background-image: url(images/icono_lupa_clicclac.png);
 	width: 40px;
     height: 40px;
 }
 
 .item-container .icon-mano:before {
-	background-image: url(images/icono_mano.png);
+	background-image: url(images/icono_mano_clicclac.png);
 	width: 42px;
     height: 35px;
     margin-top: -10px;
 }
 
 .item-container .icon-notas:before {
-	background-image: url(images/icono_notas.png);
+	background-image: url(images/icono_notas_clicclac.png);
 	width: 40px;
     height: 30px;
     margin-top: -5px;
 }
 
 .item-container .icon-pegamento:before {
-	background-image: url(images/icono_pegamento.png);
+	background-image: url(images/icono_pegamento_clicclac.png);
 	width: 30px;
     height: 40px;
 }
 
 .item-container .icon-pintar:before {
-	background-image: url(images/icono_pintar.png);
+	background-image: url(images/icono_pintar_clicclac.png);
+	width: 65px;
+    height: 55px;
+}
+
+
+.item-container .icon-joue-verde:before {
+	background-image: url(images/icono_joue_verde_clicclac.png);
 	width: 65px;
     height: 55px;
 }
