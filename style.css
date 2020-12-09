@@ -2600,6 +2600,16 @@ hr {
 
 }
 
+
+
+
+
+@media screen and (max-width: 375px) {
+
+
+
+}
+
 /**/
 
 @media screen and (max-width: 480px) {
@@ -2609,19 +2619,30 @@ hr {
 }
 
 }
-
+  
 
 @media screen and (max-width: 375px) {
 
 .content_type_clase_clicclacdemo #actividad .content .header .title {
-	margin-top: 0px;
+		margin-top: 0px;
 }
 
-.bck-box.bck-box6:before {
-	width: 90%;
-    margin-left: 5px;
+	.bck-box.bck-box6:before {
+		width: 90%;
+   		margin-left: 5px;
 }
 
+
+	.bck-box12 .bck-title {
+		margin-right: -20px;
+		padding: 25px 5px 15px 5px;
+		font-size: 1.3rem;
+	}
+
+	.bck-box13 .bck-title:before {
+		margin-left: -15px;
+    	margin-top: 100px;
+	}
 }
 
 /**/
