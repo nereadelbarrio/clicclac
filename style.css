@@ -2097,7 +2097,7 @@ a:hover, a:active, a:focus {
     padding-left: 10px;
 }
 
-.bck-dropdown1-button {
+.bck-dropdown1 .bck-dropdown-button {
 	padding: 10px;
 	background-color: #EDEDED;
 }
