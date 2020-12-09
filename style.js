@@ -36,8 +36,8 @@
 				{ name: 'Énfasis 8', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-8'} },
 				{ name: 'Énfasis 9', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-9'} },
 				{ name: 'Énfasis 10', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-10'} },
-				{ name: 'Énfasis Rojo con fondo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-11'} },
-				{ name: 'Énfasis Azul con fondo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-12'} },
+				{ name: 'Énfasis 11', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-11'} },
+				{ name: 'Énfasis 12', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-12'} },
 				{ name: 'Énfasis Aguamarina con fondo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-13'} },
 				{ name: 'Énfasis Subrayado Amarillo', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-14'} },
 				{ name: 'Énfasis Cuaderno Actividades', element: 'span', attributes: { 'class': 'bck-enfasis bck-enfasis-15'} },
@@ -92,6 +92,7 @@
 				{ name: 'Icono Notas', element: 'span', attributes: { 'class': 'icon icon-notas' } },
 				{ name: 'Icono Pegamento', element: 'span', attributes: { 'class': 'icon icon-pegamento' } },
 				{ name: 'Icono Pintar', element: 'span', attributes: { 'class': 'icon icon-pintar' } },
+				{ name: 'Icono Joue Verde', element: 'span', attributes: { 'class': 'icon icon-joue-verde' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown2' } },
