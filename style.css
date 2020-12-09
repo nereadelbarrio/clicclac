@@ -1544,22 +1544,12 @@ a:hover, a:active, a:focus {
     border-radius: 20px;
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
-    border: 1px solid #333;
-    /*
-    border-top: 20px solid transparent;
-  	-moz-border-image:url(images/fondo_caja8_anilla_clicclac.png);
- 	 -webkit-border-image:url(images/fondo_caja8_anilla_clicclac.png);
-  	-o-border-image:url(images/fondo_caja8_anilla_clicclac.png);
-  	border-image:url(images/fondo_caja8_anilla_clicclac.png);
-  	border-image-repeat: repeat;
-    border-image-slice: 80;
-    */
     background-image: url(images/fondo_caja8_anilla_clicclac.png);
     background-size: auto;
     background-repeat-y: no-repeat;
     background-repeat-x: repeat;
-    background-position-x: 20px;
-    background-position-y: -13px;
+    background-position-x: 25px;
+    background-position-y: -15px;
 }
 
 .bck-box6 .bck-content {
