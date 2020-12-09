@@ -1545,6 +1545,7 @@ a:hover, a:active, a:focus {
     width: 98%;
     font-family: 'Conv_ChalkboardSE';
     border: 1px solid #333;
+    /*
     border-top: 20px solid transparent;
   	-moz-border-image:url(images/fondo_caja8_anilla_clicclac.png);
  	 -webkit-border-image:url(images/fondo_caja8_anilla_clicclac.png);
@@ -1552,6 +1553,9 @@ a:hover, a:active, a:focus {
   	border-image:url(images/fondo_caja8_anilla_clicclac.png);
   	border-image-repeat: repeat;
     border-image-slice: 80;
+    */
+    background-image: url(images/fondo_caja8_anilla_clicclac.png);
+    background-size: contain;
 }
 
 .bck-box6 .bck-content {
