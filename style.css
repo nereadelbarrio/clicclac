@@ -2100,11 +2100,12 @@ a:hover, a:active, a:focus {
     background-color: #fff;
     border: 2px solid #ededed;
     padding-left: 20px;
-    padding-bottom: 0px;    
+    padding-bottom: 0px;
+    font-size: 1.6rem;    
 }
 
 .bck-dropdown1 .bck-dropdown-titulo {
-    font-size: 1.8rem;
+    font-size: 1.68rem;
     padding-left: 25px;
 }
 
