@@ -2170,7 +2170,7 @@ a:hover, a:active, a:focus {
 
 
 .bck-dropdown.bck-dropdown2 {
-	background-color: #3b6caa;
+	background-color: transparent;
 	border-radius: 20px;
 	border: none;
 }
