@@ -1611,6 +1611,15 @@ a:hover, a:active, a:focus {
 	font-size: 1.4rem;
 }
 
+.bck-box8 .bck-content:after {
+	content: "";
+	background-image: url(images/icono_respuestas_clicclac.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 15px;
+	position: absolute;
+}
+
 
 
 /* Caja 9*/
