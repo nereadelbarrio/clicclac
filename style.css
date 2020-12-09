@@ -1612,14 +1612,14 @@ a:hover, a:active, a:focus {
 }
 
 .bck-box8 .bck-content p:after {
-	content: "";
+    content: "";
     background-image: url(images/icono_respuestas_clicclac.png);
     background-repeat: no-repeat;
     background-size: contain;
     padding: 15px;
     position: absolute;
     margin-left: -40px;
-    margin-top: -55px;
+    margin-top: -10px;
     left: 0;
     transform: rotate(180deg);
 }
