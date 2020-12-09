@@ -1606,7 +1606,12 @@ a:hover, a:active, a:focus {
 	padding-right: 45px;
 }
 
-.bck-box.bck-box8:after {
+.bck-box8 .bck-content {
+	transform: rotate(-180deg);
+	font-size: 1.4rem;
+}
+
+.bck-box8 .bck-content:after {
 	content: "";
 	background-image: url(images/icono_respuestas_clicclac.png);
 	background-repeat: no-repeat;
@@ -1615,11 +1620,8 @@ a:hover, a:active, a:focus {
 	position: absolute;
 	margin-left: -30px;
     margin-top: -55px;
-}
-
-.bck-box8 .bck-content {
-	transform: rotate(-180deg);
-	font-size: 1.4rem;
+    right: 0;
+    transform: rotate(180deg);
 }
 
 
