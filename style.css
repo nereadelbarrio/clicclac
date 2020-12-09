@@ -2163,19 +2163,20 @@ a:hover, a:active, a:focus {
 
 .bck-dropdown2 .bck-dropdown-button {
 	padding-left: 30px;
-	background-color: #EDEDED;
-	border-radius: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 2px solid #3B6CAA;
 }
 
 
 .bck-dropdown.bck-dropdown2 {
-	background-color: #EDEDED;
+	background-color: transparent;
 	border-radius: 20px;
 	border: none;
 }
 
 .bck-dropdown2 .bck-dropdown-icon {
-	background-color: #EDEDED;
+	background-color: transparent;
 	display: inline-block;
 	float: right;
 }
@@ -2201,22 +2202,13 @@ a:hover, a:active, a:focus {
 }
 */
 
-.bck-dropdown2 .bck-dropdown-titulo:before {
-	content: "";
-    background-image: url(images/icono_respuestas_clicclac.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding: 15px;
-    position: absolute;
-    margin-left: -25px;
-    margin-top: -4px;
-}
 
 .bck-dropdown2 .bck-dropdown-icon > .fa {
     border: 0px solid white;
     padding: 0px;
     padding-right: 7px;
     margin-left: -3px;
+
 }
 
 
