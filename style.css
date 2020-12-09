@@ -2133,7 +2133,6 @@ a:hover, a:active, a:focus {
 
 .bck-dropdown1 .bck-dropdown-titulo {
     font-size: 1.6rem;
-    padding-left: 35px;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo:before {
@@ -2148,6 +2147,72 @@ a:hover, a:active, a:focus {
 }
 
 .bck-dropdown1 .bck-dropdown-icon > .fa {
+    border: 0px solid white;
+    padding: 0px;
+    padding-right: 7px;
+    margin-left: -3px;
+}
+
+/*Desplegable 2*/
+
+.bck-dropdown2-titulo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.bck-dropdown2 .bck-dropdown-button {
+	padding-left: 30px;
+	background-color: #EDEDED;
+	border-radius: 20px;
+}
+
+
+.bck-dropdown.bck-dropdown2 {
+	background-color: #EDEDED;
+	border-radius: 20px;
+	border: none;
+}
+
+.bck-dropdown2 .bck-dropdown-icon {
+	background-color: #EDEDED;
+	display: inline-block;
+	float: right;
+}
+
+.bck-dropdown2 .fa-chevron-up:before, 
+.bck-dropdown2 .fa-chevron-down:before {
+    font-size: 1.8rem;
+}
+
+.bck-dropdown2 .bck-dropdown-content {
+    background-color: #fff;
+    border: 2px solid #ededed;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    font-size: 1.6rem; 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*
+.bck-dropdown2 .bck-dropdown-titulo {
+    font-size: 1.6rem;
+}
+*/
+
+.bck-dropdown2 .bck-dropdown-titulo:before {
+	content: "";
+    background-image: url(images/icono_respuestas_clicclac.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 15px;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: -4px;
+}
+
+.bck-dropdown2 .bck-dropdown-icon > .fa {
     border: 0px solid white;
     padding: 0px;
     padding-right: 7px;
