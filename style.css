@@ -1552,6 +1552,16 @@ a:hover, a:active, a:focus {
     background-position-y: -15px;
 }
 
+.bck-box.bck-box6:before {
+	content: "";
+	background-image: url(images/fondo_caja8_anilla_clicclac.png);
+    background-size: auto;
+    background-repeat-y: no-repeat;
+    background-repeat-x: repeat;
+    background-position-x: 25px;
+    background-position-y: -15px;
+}
+
 .bck-box6 .bck-content {
 	display: block;
     padding-bottom: 10px;
