@@ -2604,84 +2604,24 @@ hr {
 
 @media screen and (max-width: 480px) {
 
-   .content_type_clase_clicclacdemo #actividad .content .header .title:before {
-    padding: 30px 5px 10px 5px;
-    left: 10px;
-    font-size: 1.2rem;
-    margin-top: -40px;
-}
-
-.content_type_clase_clicclacdemo #actividad .content .header .title h3 {
-    font-size: 1.8rem;
-    -webkit-text-stroke: #EA368E 1px;
-     padding: 10px 5px 10px 5px;
-
-}
-
 .content_type_clase_clicclacdemo #actividad .content .header .title {
 	margin-top: 0px;
-}
-
-
-.bck-box.bck-box1 {
-    padding: 5px 20px 15px 25px;
-    margin-top: -40px;
-}
-
-.bck-box1 .bck-content {
-    font-size: 2.8rem;
-    -webkit-text-stroke: #ea368e 1.5px;
-}
-
-.bck-box1 .bck-content .player.audio {
-    padding: 15px;
-}
-
-.bck-box1 .bck-title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    margin-top: -5px;
-}
-
-  .bck-box.bck-box2 {
-    padding: 5px 20px 15px 25px;
-    margin-top: -40px;
-}
-
-.bck-box2 .bck-content {
-    font-size: 2.8rem;
-    -webkit-text-stroke: #00AC81 1.5px;
-}
-
-.bck-box2 .bck-content .player.audio {
-    padding: 15px;
-}
-
-.bck-box2 .bck-title {
-    font-size: 1.5rem;
-    padding-top: 20px;
-    margin-top: -5px;
-}
-
-
-.bck-box.bck-box21 {
-    left: -19.4%;
 }
 
 }
 
 
 @media screen and (max-width: 375px) {
-	.bck-box12 .bck-title {
-		margin-right: -20px;
-		padding: 25px 5px 15px 5px;
-		font-size: 1.3rem;
-	}
 
-	.bck-box13 .bck-title:before {
-		margin-left: -15px;
-    	margin-top: 100px;
-	}
+.content_type_clase_clicclacdemo #actividad .content .header .title {
+	margin-top: 0px;
+}
+
+.bck-box.bck-box6:before {
+	width: 90%;
+    margin-left: 5px;
+}
+
 }
 
 /**/
