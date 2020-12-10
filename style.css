@@ -2627,6 +2627,10 @@ hr {
 
 /* Forms */
 
+textarea.form-control {
+	font-size: 1.8rem;
+}
+
 .content_type_clase_clicclacdemo .slide_main input {
 	 margin-bottom: 40px;
     font-size: 1.8rem;
