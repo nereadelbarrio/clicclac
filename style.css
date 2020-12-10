@@ -2631,10 +2631,10 @@ hr {
 
 .content_type_clase_clicclacdemo .slide_main input:focus,
 .content_type_clase_clicclacdemo .slide_main .img-input-container:focus {
-    border-top-color: #FFCF01;
-    border-right-color: #FFCF01;
-    border-bottom-color: #FFCF01;
-    border-left-color: #FFCF01;
+    border-top-color: #3B6CAA;
+    border-right-color: #3B6CAA;
+    border-bottom-color: #3B6CAA;
+    border-left-color: #3B6CAA;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
