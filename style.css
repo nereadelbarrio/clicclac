@@ -631,7 +631,9 @@ a:hover, a:active, a:focus {
 	color: #fff;
     background-color: #fc4237;
     border-color: transparent;
-
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 5px 10px;
 }
 
 /**/
