@@ -2698,6 +2698,30 @@ hr {
     padding-top: 5px;
 }
 
+.slide.crosswords .enunciados {
+    margin-right: 0;
+    display: inline-block;
+    border: 2px solid #dedede;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 2rem 3rem;
+    width: 300px;
+    line-height: 2.1rem;
+}
+
+.slide.crosswords .enunciados .enunciado {
+    padding: 0 0 10px 0;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+
+.content ol li.enunciado:before {
+    margin-top: -3px;
+    margin-left: -20px;
+    font-size: 1.6rem;
+}
 
 body.content_type_clase_clicclacdemo #actividad .content .fillblanks-draggable-wrapper
 .response .bck-i-fullscreen,
