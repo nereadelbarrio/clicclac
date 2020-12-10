@@ -836,8 +836,8 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ol1 li:before {
     content: counter(bck-li-counter) ".";
     position: absolute;
-    margin-top: 0px;
-    margin-left: -30px;
+    margin-top: 2px;
+    margin-left: 5px;
     display: block;
     width: 24px;
     height: 24px;
