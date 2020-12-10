@@ -2716,12 +2716,24 @@ hr {
     line-height: 1;
 }
 
-
 .content ol li.enunciado:before {
     margin-top: -3px;
     margin-left: -20px;
     font-size: 1.6rem;
 }
+
+
+.slide.crosswords-puzzle .enunciado {
+    font-size: 1.6rem;
+    padding-left: 2px;
+    line-height: 1;
+}
+
+.slide.crosswords-puzzle li.enunciado:before {
+    margin-top: -2px;
+}
+
+
 
 body.content_type_clase_clicclacdemo #actividad .content .fillblanks-draggable-wrapper
 .response .bck-i-fullscreen,
