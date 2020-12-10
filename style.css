@@ -138,6 +138,7 @@
 
 .btn-primary[disabled] {
 	  background-color: #76B82A;
+	  opacity: 0.8rem;
 }
 
 .btn-primary:not([disabled]):hover {
