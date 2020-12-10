@@ -2670,6 +2670,19 @@ textarea.form-control {
 	text-align: center
 }
 
+.form-control:focus {
+    border-top-color: #3B6CAA;
+    border-right-color: #3B6CAA;
+    border-bottom-color: #3B6CAA;
+    border-left-color: #3B6CAA;
+    border-width: 2px;
+    outline-width: 0;
+    outline-style: none;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px rgb(102,175,233,0.6);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset,0 0 8px rgba(102,175,233,0.6);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.075) inset, 0 0 8px rgba(102,175,233,0.6);
+}
+
 
 /*QUERIES*/
 
