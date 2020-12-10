@@ -165,6 +165,20 @@
     font-size: 2.5rem;
 }
 
+.btn-solution {
+	color: #fff;
+    background-color: #00bdff;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 1.6rem;
+}
+
+.btn-solution:hover {
+	color: #fff;
+    background-color: #6ed3f7;
+    border-color: transparent;
+}
+
 /*logo*/
 
 .libro-left ul li .title:before {
