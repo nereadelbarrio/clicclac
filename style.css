@@ -1908,8 +1908,16 @@ hr {
     vertical-align: middle;
 }
 
-
-.item-container .icon:before {
+.cke_contents .icon:before, 
+.item-container.icon:before {
+	content: "";
+	background-repeat: no-repeat;
+	-webkit-background-size: auto 100%;
+	   -moz-background-size: auto 100%;
+	     -o-background-size: auto 100%;
+	        background-size: auto 100%;
+	background-position: center center;
+	display: inline-block;
 	width: 45px;
 	margin-top: 0px;
 }
