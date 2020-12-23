@@ -2025,6 +2025,29 @@ hr {
     height: 65px;
 }
 
+.item-container .icon-delf-1:before {
+	background-image: url(images/icono_delf_1_clicclac.png);
+	width: 90px;
+    height: 65px;
+}
+
+.item-container .icon-delf-2:before {
+	background-image: url(images/icono_delf_2_clicclac.png);
+	width: 90px;
+    height: 65px;
+}
+
+.item-container .icon-delf-3:before {
+	background-image: url(images/icono_delf_3_clicclac.png);
+	width: 90px;
+    height: 65px;
+}
+
+.item-container .icon-delf-4:before {
+	background-image: url(images/icono_delf_4_clicclac.png);
+	width: 90px;
+    height: 65px;
+}
 
 /* Forms */
 
