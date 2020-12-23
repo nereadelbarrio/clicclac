@@ -75,6 +75,10 @@
 				{ name: 'Icono Pegamento', element: 'span', attributes: { 'class': 'icon icon-pegamento' } },
 				{ name: 'Icono Pintar', element: 'span', attributes: { 'class': 'icon icon-pintar' } },
 				{ name: 'Icono Joue Verde', element: 'span', attributes: { 'class': 'icon icon-joue-verde' } },
+				{ name: 'Icono DELF 1', element: 'span', attributes: { 'class': 'icon icon-delf-1' } },
+				{ name: 'Icono DELF 2', element: 'span', attributes: { 'class': 'icon icon-delf-2' } },
+				{ name: 'Icono DELF 3', element: 'span', attributes: { 'class': 'icon icon-delf-3' } },
+				{ name: 'Icono DELF 4', element: 'span', attributes: { 'class': 'icon icon-delf-4' } },
 
 				{ name: 'Desplegable 1', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown1' } },
 				{ name: 'Desplegable 2', type: 'widget', widget: 'blink_dropdown', attributes: { 'class': 'bck-dropdown bck-dropdown2' } },
