@@ -2437,8 +2437,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	background: #0081C4;
 }
 
-.coursetag_clicclacdemo1 #indice .units ul li:not(.disabled) a:hover .title, 
-.coursetag_clicclacdemo1 #indice .units ul li.active:not(.disabled) a .title {
+body:not(.isTablet).coursetag_clicclacdemo1 #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_clicclacdemo1 #indice .units ul li.active:not(.disabled) a .title {
     color: #0081c4 !important;
 }
 
@@ -2447,8 +2447,8 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	background: #BD0053;
 }
 
-.coursetag_clicclacdemo2 #indice .units ul li:not(.disabled) a:hover .title, 
-.coursetag_clicclacdemo2 #indice .units ul li.active:not(.disabled) a .title {
+body:not(.isTablet).coursetag_clicclacdemo2 #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_clicclacdemo2 #indice .units ul li.active:not(.disabled) a .title {
     color: #BD0053 !important;
 }
 
@@ -2457,7 +2457,7 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 	background: #669D67;
 }
 
-.coursetag_clicclacdemo3 #indice .units ul li:not(.disabled) a:hover .title, 
-.coursetag_clicclacdemo3 #indice .units ul li.active:not(.disabled) a .title {
+body:not(.isTablet).coursetag_clicclacdemo3 #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet).coursetag_clicclacdemo3 #indice .units ul li.active:not(.disabled) a .title {
     color: #669D67 !important;
 }
