@@ -990,7 +990,7 @@ a:hover, a:active, a:focus {
 
 .content .bck-ol7 li,
 .cke_contents .bck-ol7 li {
-	font-weight: normal;
+	font-weight: bold;
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.1rem;
