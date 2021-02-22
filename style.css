@@ -415,7 +415,7 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #00A074 !important;
+		background: #0081C4 !important;
     	padding-left: 100px;
     	padding-right: 100px;
 	}
@@ -439,11 +439,11 @@
 	}
 
 	#bottom-navigator li:hover {
-		  background: #ffcf01;
+		  background: #fff7d2;
     	  color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #ffcf01;
+		background: #fff7d2;
    		color: transparent;
 	}
 
