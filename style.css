@@ -1996,7 +1996,7 @@ hr {
 	background-position: center center;
 	display: inline-block;
 	width: 45px;
-	margin-top: 0px;
+	margin-top: 0px !important;
 }
 
 .item-container .icon-bocadillo:before {
