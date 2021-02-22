@@ -235,6 +235,7 @@
     	padding: 0;
     	margin-left: 0px;
     	margin-top: 10px;
+		display:none;
 	}
 
 
@@ -244,7 +245,8 @@
 
 	.content_type_clase_clicclacdemo #actividad .content .header .title h3 {
 		position: relative;
-    	display: block;
+    	/*display: block;*/
+		display:none;
     	padding: 5px 15px 5px 95px;
     	font-size: 2.5rem;
 	}
