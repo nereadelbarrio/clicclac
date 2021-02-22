@@ -986,7 +986,40 @@ a:hover, a:active, a:focus {
     line-height: inherit;
 }
 
+/*LISTA ORDENADA 7*/
 
+.content .bck-ol7 li,
+.cke_contents .bck-ol7 li {
+	font-weight: normal;
+    color: #3B6CAA;
+    padding-left: 0;
+    font-size: 2.1rem;
+    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    margin-left: 40px;
+
+}
+
+.content .bck-ol7 li:before,
+.cke_contents .bck-ol7 li:before {
+    content: counter(bck-li-counter);
+    color: #fff;
+    background: #76B82A;
+    padding: 0px 2px 2px 2px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -40px;
+    width: 33px;
+    text-align: center;
+    height: auto;
+    font-size: 2.5rem;
+    text-shadow: none;
+    transform: none;
+    font-family: 'Conv_Chaloops-Medium';
+    box-shadow: inherit;
+    border: none;
+    line-height: inherit;
+}
 /*LISTA DESORDENADA 1*/
 
 
