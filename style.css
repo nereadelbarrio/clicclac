@@ -1422,8 +1422,8 @@ a:hover, a:active, a:focus {
 }
 
 .bck-box8 .bck-content {
-	transform: rotate(-180deg);
 	font-size: 1.4rem;
+	padding-left: 20px;
 }
 
 .bck-box8 .bck-content p:after {
@@ -1433,8 +1433,8 @@ a:hover, a:active, a:focus {
     background-size: contain;
     padding: 15px;
     position: absolute;
-    margin-left: -40px;
-    margin-top: -10px;
+    margin-left: 12px;
+    margin-top: -23px;
     left: 0;
     transform: rotate(180deg);
 }
