@@ -1670,6 +1670,7 @@ a:hover, a:active, a:focus {
     font-size: 1.6rem; 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+	max-height: 800%;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo {
@@ -1738,6 +1739,7 @@ a:hover, a:active, a:focus {
     color: #3b6caa;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+	max-height: 800%;
 }
 
 /*
