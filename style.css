@@ -1983,6 +1983,7 @@ hr {
 	height: 32px !important;
     width: 32px;
     vertical-align: middle;
+	margin-top: -25px;
 }
 
 .cke_contents .icon:before, 
@@ -2006,23 +2007,22 @@ hr {
 }
 
 .item-container .icon-brujula:before {
-	background-image: url(images/icono_brujula_clicclac.png);
-	width: 40px;
+    background-image: url(images/icono_brujula_clicclac.png);
+    width: 40px;
     height: 30px;
-	margin-top:5px;
+    margin-bottom: -13px;
 }
 
 .item-container .icon-fiche:before {
 	background-image: url(images/icono_fiche_clicclac.png);
-	width: 55px;
-    height: 55px;
+	width: 45px;
+    height: 45px;
 }
 
 .item-container .icon-lapiz:before {
-	background-image: url(images/icono_lapiz_clicclac.png);
-	width: 23px;
-    height: 45px;
-	margin-top:5px;
+    background-image: url(images/icono_lapiz_clicclac.png);
+    width: 23px;
+    height: 40px;
 }
 
 .item-container .icon-libro:before {
@@ -2058,9 +2058,9 @@ hr {
 }
 
 .item-container .icon-pintar:before {
-	background-image: url(images/icono_pintar_clicclac.png);
-	width: 65px;
-    height: 55px;
+    background-image: url(images/icono_pintar_clicclac.png);
+    width: 60px;
+    height: 45px;
 }
 
 
@@ -2073,25 +2073,25 @@ hr {
 .item-container .icon-delf-1:before {
 	background-image: url(images/icono_delf_1_clicclac.png);
 	width: 65px;
-    height: 55px;
+    height: 45px;
 }
 
 .item-container .icon-delf-2:before {
 	background-image: url(images/icono_delf_2_clicclac.png);
 	width: 60px;
-    height: 55px;
+    height: 45px;
 }
 
 .item-container .icon-delf-3:before {
 	background-image: url(images/icono_delf_3_clicclac.png);
 	width: 60px;
-    height: 50px;
+    height: 45px;
 }
 
 .item-container .icon-delf-4:before {
 	background-image: url(images/icono_delf_4_clicclac.png);
 	width: 65px;
-    height: 53px;
+    height: 45px;
 }
 
 /* Forms */
