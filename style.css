@@ -1997,7 +1997,22 @@ hr {
 	background-position: center center;
 	display: inline-block;
 	width: 45px;
-	margin-top: 0px !important;
+	/*margin-top: 0px !important;*/
+}
+
+.item-container .icon:before {
+    content: "";
+    background-repeat: no-repeat;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+    background-position: center center;
+    display: inline-block;
+    vertical-align: middle;
+    height: 40px;
+    width: 54px;
+    margin-top: -30px;
 }
 
 .item-container .icon-bocadillo:before {
