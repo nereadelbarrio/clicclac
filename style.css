@@ -736,6 +736,10 @@ a:hover, a:active, a:focus {
 	color: #333;
 }
 
+.texto_curso li {
+    line-height: 2.03em!important;
+}
+
 /*LISTA ORDENADA POR DEFECTO*/
 
 .content .bck-ol li, 
