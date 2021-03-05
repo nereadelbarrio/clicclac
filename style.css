@@ -184,11 +184,11 @@
 .libro-left ul li .title:before {
     content: "";
     background-size: contain;
-    top: 12px;
-    background-image: url(images/logofrenchhub_clicclacdemo.png) !important;
+    top: 9px;
+    background-image: url(images/logo_mdl.png) !important;
     position: fixed;
-    width: 100px;
-    height: 23px;
+    width: 29px;
+    height: 29px;
     background-repeat: no-repeat;
     left: 50%;
     margin-left: -40px;
