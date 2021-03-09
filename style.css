@@ -2207,6 +2207,12 @@ textarea.form-control {
 	margin-left: -15px;
     margin-top: 40px;
 	}
+	
+	.bck-box.bck-box13 {
+	    padding: 35px;
+	    width: 132.3%;
+	    margin-left: -97px;
+}
 }
 
 @media screen and (max-width: 768px) {
@@ -2214,6 +2220,12 @@ textarea.form-control {
 		margin-left: -35px;
     	margin-top: 75px;
 	}
+	
+		.bck-box.bck-box13 {
+	    padding: 29px;
+	    width: 132.3%;
+	    margin-left: -97px;
+}
 }
 
 
