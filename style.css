@@ -2039,8 +2039,9 @@ hr {
 
 .item-container .icon-fiche:before {
 	background-image: url(images/icono_fiche_clicclac.png);
-	width: 45px;
-    height: 45px;
+	width: 47px;
+    height: 34px;
+    margin-top: -5px;
 }
 
 .item-container .icon-lapiz:before {
@@ -2052,27 +2053,29 @@ hr {
 
 .item-container .icon-libro:before {
 	background-image: url(images/icono_libro_clicclac.png);
-	width: 40px;
-    height: 35px;
+	width: 43px;
+    height: 30px;
+    margin-top: -5px;
 }
 
 .item-container .icon-lupa:before {
 	background-image: url(images/icono_lupa_clicclac.png);
-	width: 40px;
-    height: 40px;
+	width: 43px;
+    height: 30px;
+    margin-top: -5px;
 }
 
 .item-container .icon-mano:before {
 	background-image: url(images/icono_mano_clicclac.png);
-	width: 42px;
-    height: 35px;
-    margin-top: -10px;
+	width: 43px;
+    height: 30px;
+    margin-top: -5px;
 }
 
 .item-container .icon-notas:before {
 	background-image: url(images/icono_notas_clicclac.png);
-	width: 40px;
-    height: 30px;
+	width: 31px;
+    height: 27px;
     margin-top: -5px;
 }
 
@@ -2085,8 +2088,9 @@ hr {
 
 .item-container .icon-pintar:before {
     background-image: url(images/icono_pintar_clicclac.png);
-    width: 60px;
-    height: 45px;
+    width: 46px;
+    height: 42px;
+    /* margin-top: -5px;*/
 }
 
 
@@ -2098,26 +2102,30 @@ hr {
 
 .item-container .icon-delf-1:before {
 	background-image: url(images/icono_delf_1_clicclac.png);
-	width: 65px;
-    height: 45px;
+	width: 46px;
+    height: 42px;
+    margin-top: -5px;
 }
 
 .item-container .icon-delf-2:before {
 	background-image: url(images/icono_delf_2_clicclac.png);
-	width: 60px;
-    height: 45px;
+	width: 46px;
+    height: 42px;
+    margin-top: -5px;
 }
 
 .item-container .icon-delf-3:before {
 	background-image: url(images/icono_delf_3_clicclac.png);
-	width: 60px;
-    height: 45px;
+	width: 46px;
+    height: 42px;
+    margin-top: -5px;
 }
 
 .item-container .icon-delf-4:before {
 	background-image: url(images/icono_delf_4_clicclac.png);
-	width: 65px;
-    height: 45px;
+	width: 46px;
+    height: 42px;
+    margin-top: -5px;
 }
 
 /* Forms */
