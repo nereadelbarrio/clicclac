@@ -737,7 +737,7 @@ a:hover, a:active, a:focus {
 }
 
 .texto_curso li {
-    line-height: 2.03em!important;
+    line-height: 1.43em!important;
 }
 
 /*LISTA ORDENADA POR DEFECTO*/
@@ -2031,9 +2031,9 @@ hr {
 
 .item-container .icon-brujula:before {
     background-image: url(images/icono_brujula_clicclac.png);
-    width: 40px;
-    height: 30px;
-    margin-bottom: -13px;
+    width: 32px;
+    height: 22px;
+    margin-top: -5px;
 }
 
 .item-container .icon-fiche:before {
@@ -2044,8 +2044,9 @@ hr {
 
 .item-container .icon-lapiz:before {
     background-image: url(images/icono_lapiz_clicclac.png);
-    width: 23px;
-    height: 40px;
+    width: 32px;
+    height: 35px;
+    margin-top: -16px;
 }
 
 .item-container .icon-libro:before {
@@ -2077,7 +2078,8 @@ hr {
 .item-container .icon-pegamento:before {
 	background-image: url(images/icono_pegamento_clicclac.png);
 	width: 32px;
-    height: 40px;
+    height: 35px;
+    margin-top: -16px;
 }
 
 .item-container .icon-pintar:before {
