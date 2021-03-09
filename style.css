@@ -1529,10 +1529,18 @@ a:hover, a:active, a:focus {
 /*Caja 13*/
 
 .bck-box.bck-box13 {
-	background-color: #fff;
-	padding: 20px;
-	margin-bottom: 20px;
-	border: none;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    content: "";
+    background-image: url(images/box-mission_bricolo.png);
+    background-size: cover;
+    background-repeat-y: no-repeat;
+    background-repeat-x: no-repeat;
+    padding: 57px;
+    width: 125.3%;
+    margin-left: -97px;
 
 }
 
@@ -1543,8 +1551,8 @@ a:hover, a:active, a:focus {
 	padding-top: 15px;
     border-radius: 0;
     font-family: 'Conv_Barrio-Regular';
-    -webkit-box-shadow: 5px 8px 10px 5px #D7D7D7;
-    box-shadow: 5px 8px 10px 5px #D7D7D7;
+    -webkit-box-shadow: 11px 8px 7px -2px #bebebe;
+    box-shadow: 11px 8px 7px -2px #bebebe;
     -webkit-width: fit-content;
     -moz-width: fit-content;
     -o-width: fit-content;
@@ -1581,8 +1589,8 @@ a:hover, a:active, a:focus {
     -o-width: fit-content;
     -ms-width: fit-content;
     width: fit-content;
-    margin: auto;
     margin-top: 15px;
+    margin-left: 121px;
 }
 
 /*Caja 14*/
