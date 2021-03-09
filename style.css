@@ -1952,6 +1952,7 @@ hr {
 	background: #009FE3;
 	padding: 1px 10px 1px 5px;
 	margin-right: 19px;
+	position: relative;
 }
 
 .bck-enfasis-9:after {
