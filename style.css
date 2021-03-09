@@ -182,13 +182,13 @@
 /*logo*/
 
 .libro-left ul li .title:before {
-    content: "";
+	content: "";
     background-size: contain;
-    top: 9px;
-    background-image: url(images/logo_mdl.png) !important;
+    top: 11px;
+    background-image: url(images/logo_emdl_base_horizontal.png) !important;
     position: fixed;
-    width: 29px;
-    height: 29px;
+    width: 200px;
+    height: 38px;
     background-repeat: no-repeat;
     left: 50%;
     margin-left: -40px;
