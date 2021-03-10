@@ -1,15 +1,15 @@
 (function (blink) {
 	'use strict';
 
-	var clicclacdemoStyle = function () {
+	var clicclacStyle = function () {
 			blink.theme.styles.basic.apply(this, arguments);
 		},
 		page = blink.currentPage;
 
-	clicclacdemoStyle.prototype = {
-		bodyClassName: 'content_type_clase_clicclacdemo',
+	clicclacStyle.prototype = {
+		bodyClassName: 'content_type_clase_clicclac',
 		ckEditorStyles: {
-			name: 'clicclacdemo',
+			name: 'clicclac',
 			styles: [
 
 				{ name: 'Título 1', element: 'h4', attributes: { 'class': 'bck-title bck-title1'} },
@@ -161,8 +161,8 @@
 		}
 	};
 
-	clicclacdemoStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacdemoStyle.prototype);
+	clicclacStyle.prototype = _.extend({}, new blink.theme.styles.basic(), clicclacStyle.prototype);
 
-	blink.theme.styles.clicclacdemo = clicclacdemoStyle;
+	blink.theme.styles.clicclac = clicclacStyle;
 
 })( blink );
