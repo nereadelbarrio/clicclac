@@ -194,43 +194,43 @@
     margin-left: -40px;
 }
 
-	body.content_type_clase_clicclacdemo {
+	body.content_type_clase_clicclac {
 		font-size: 1.8rem;
 		font: 400 15px 'Source Sans Pro',sans-serif;
 		font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
 		color: #3B6CAA;
 	}
 
-	body.content_type_clase_clicclacdemo #actividad .content img {
+	body.content_type_clase_clicclac #actividad .content img {
 		padding: 5px;
 	}
 
 
-	.is_app.content_type_clase_clicclacdemo {
+	.is_app.content_type_clase_clicclac {
 		padding-top: 0px;
 	}
 
-	.content_type_clase_clicclacdemo #actividad {
+	.content_type_clase_clicclac #actividad {
 		margin-bottom: 0px;
 		-webkit-transform: none;
 		-webkit-transform-style: flat;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .slide-concatenate {
+	.content_type_clase_clicclac #actividad .slide-concatenate {
 		margin-top: 30px;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .header .title img,
-	.content_type_clase_clicclacdemo #actividad .content .header .chapter {
+	.content_type_clase_clicclac #actividad .content .header .title img,
+	.content_type_clase_clicclac #actividad .content .header .chapter {
 		display: none;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .header {
+	.content_type_clase_clicclac #actividad .content .header {
 		border: none;
 		margin-bottom: 0;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .header .title {
+	.content_type_clase_clicclac #actividad .content .header .title {
 		margin-bottom: 10px;
     	padding: 0;
     	margin-left: 0px;
@@ -239,11 +239,11 @@
 	}
 
 
-	.content_type_clase_clicclacdemo #actividad .content .slide-concatenate .header .title {
+	.content_type_clase_clicclac #actividad .content .slide-concatenate .header .title {
 		display: none;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .header .title h3 {
+	.content_type_clase_clicclac #actividad .content .header .title h3 {
 		position: relative;
     	/*display: block;*/
 		display:none;
@@ -251,7 +251,7 @@
     	font-size: 2.5rem;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .seccion_rosa .header .title h3 {
+	.content_type_clase_clicclac #actividad .content .seccion_rosa .header .title h3 {
 		position: relative;
 	    display: block;
 	    width: fit-content;
@@ -263,7 +263,7 @@
 	    text-align: left;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .content .seccion_verde .header .title h3 {
+	.content_type_clase_clicclac #actividad .content .seccion_verde .header .title h3 {
 		position: relative;
 	    display: block;
 	    width: fit-content;
@@ -276,15 +276,15 @@
 	}
 
 
-	.content_type_clase_clicclacdemo #actividad .content .header .title h3 span {
+	.content_type_clase_clicclac #actividad .content .header .title h3 span {
 		float: left;
 		font-size: 1.8rem;
 		font-weight: 900;
 		line-height: 1.1rem;
 	}
 
-	.content_type_clase_clicclacdemo #actividad .slide_content_type_1 .pregunta .texto_curso,
-	.content_type_clase_clicclacdemo #actividad .texto_curso,
+	.content_type_clase_clicclac #actividad .slide_content_type_1 .pregunta .texto_curso,
+	.content_type_clase_clicclac #actividad .texto_curso,
 	.html-book {
 		font-size: 1.8rem;
 	}
@@ -297,13 +297,13 @@
     	     padding: 0 0 0;
 	}
 
-	body.content_type_clase_clicclacdemo #actividad .content img {
+	body.content_type_clase_clicclac #actividad .content img {
     		padding: 0 5px;
 	}
 
 
 
-	.content_type_clase_clicclacdemo .slide_main {
+	.content_type_clase_clicclac .slide_main {
 		padding: 0 97px;
 	}
 
@@ -339,13 +339,13 @@
 	}
 
 	@media screen and (max-width: 480px) {
-		.content_type_clase_clicclacdemo .slide_main {
+		.content_type_clase_clicclac .slide_main {
 			padding: 0 35px;
 		}
 	}
 
-	.content_type_clase_clicclacdemo .slide_main input,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container {
+	.content_type_clase_clicclac .slide_main input,
+	.content_type_clase_clicclac .slide_main .img-input-container {
 		color: #555;
 		background-color: #fff;
 		background-image: none;
@@ -365,8 +365,8 @@
 		transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s, -moz-box-shadow ease-in-out .15s;
 	}
 
-	.content_type_clase_clicclacdemo .slide_main input:focus,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container:focus {
+	.content_type_clase_clicclac .slide_main input:focus,
+	.content_type_clase_clicclac .slide_main .img-input-container:focus {
 		border-top-color: #3B6CAA;
 		border-right-color: #3B6CAA;
 		border-bottom-color: #3B6CAA;
@@ -387,35 +387,35 @@
     border-color: #3B6CAA;
 }
 
-	.content_type_clase_clicclacdemo .slide_main input[disabled],
-	.content_type_clase_clicclacdemo .slide_main input[readonly],
-	fieldset[disabled] .content_type_clase_clicclacdemo .slide_main input,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container {
+	.content_type_clase_clicclac .slide_main input[disabled],
+	.content_type_clase_clicclac .slide_main input[readonly],
+	fieldset[disabled] .content_type_clase_clicclac .slide_main input,
+	.content_type_clase_clicclac .slide_main .img-input-container {
 		cursor: not-allowed;
 		background-color: #eee;
 		opacity: 1;
 	}
 
-	.content_type_clase_clicclacdemo .slide_main .img-input-container input[readonly],
-	.content_type_clase_clicclacdemo .slide_main .img-input-container input[disabled] {
+	.content_type_clase_clicclac .slide_main .img-input-container input[readonly],
+	.content_type_clase_clicclac .slide_main .img-input-container input[disabled] {
 		opacity: 0;
 		filter: alpha(opacity=0);
 	}
 
-	.content_type_clase_clicclacdemo .slide_main input.respuesta_ok,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container.respuesta_ok {
+	.content_type_clase_clicclac .slide_main input.respuesta_ok,
+	.content_type_clase_clicclac .slide_main .img-input-container.respuesta_ok {
 		border-color: #57e900;
 		background: #D1F3BD;
 	}
 
-	.content_type_clase_clicclacdemo .slide_main input.respuesta_ko,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container.respuesta_ko {
+	.content_type_clase_clicclac .slide_main input.respuesta_ko,
+	.content_type_clase_clicclac .slide_main .img-input-container.respuesta_ko {
 		border-color: #FF3626;
 		background: #FFA49D;
 	}
 
-	.content_type_clase_clicclacdemo .slide_main input.solucion,
-	.content_type_clase_clicclacdemo .slide_main .img-input-container.solucion {
+	.content_type_clase_clicclac .slide_main input.solucion,
+	.content_type_clase_clicclac .slide_main .img-input-container.solucion {
 		border-color: #00BDFF;
 		background: #B6ECFF;
 	}
@@ -480,14 +480,14 @@
 		background: -o-linear-gradient(right, #7aac39, transparent);
 		background: linear-gradient(to left, #7aac39, transparent);
 	}
-	.clicclacdemo-navbar h3 {
+	.clicclac-navbar h3 {
 		width: 75%;
 		margin: auto;
 		margin-bottom: 15px;
 		font-size: 2.0rem;
 		font-weight: bold;
 	}
-	.clicclacdemo-navbar {
+	.clicclac-navbar {
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -498,24 +498,24 @@
 		background: #545759;;
 	}
 
-	body.is_app .clicclacdemo-navbar {
+	body.is_app .clicclac-navbar {
 		-webkit-transition: top 0.5s linear;
 		-o-transition: top 0.5s linear;
 		-moz-transition: top 0.5s linear;
 		transition: top 0.5s linear;
 	}
 
-	body.is_app .clicclacdemo-navbar.ocultar {
+	body.is_app .clicclac-navbar.ocultar {
 		top: -136px;
 	}
 
-	.clicclacdemo-navbar .navbar-content {
+	.clicclac-navbar .navbar-content {
 		width: 100%;
 		height: 100%;
 		padding: 0 20px;
 		text-align: center;
 	}
-	.clicclacdemo-navbar .copyright {
+	.clicclac-navbar .copyright {
 		color: #fff;
 		line-height: 5.0rem;
 		margin-left: 90px;
@@ -668,7 +668,7 @@ a:hover, a:active, a:focus {
 
 /*slide_sin_titulo*/
 
-.content_type_clase_clicclacdemo #actividad .content .slide_sin_titulo .header .title {
+.content_type_clase_clicclac #actividad .content .slide_sin_titulo .header .title {
    display: none;
 }
 
@@ -2143,13 +2143,13 @@ textarea.form-control {
 	font-size: 1.8rem;
 }
 
-.content_type_clase_clicclacdemo .slide_main input {
+.content_type_clase_clicclac .slide_main input {
 	 margin-bottom: 15px;
     font-size: 1.8rem;
 }
 
-.content_type_clase_clicclacdemo .slide_main input,
-.content_type_clase_clicclacdemo .slide_main .img-input-container {
+.content_type_clase_clicclac .slide_main input,
+.content_type_clase_clicclac .slide_main .img-input-container {
     -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
        -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
@@ -2161,12 +2161,12 @@ textarea.form-control {
     		font-size: 1.8rem;
 }
 
-.content_type_clase_clicclacdemo .slide_main .fill-text .img-input-container {
+.content_type_clase_clicclac .slide_main .fill-text .img-input-container {
     display: none;
 }
 
-.content_type_clase_clicclacdemo .slide_main input:focus,
-.content_type_clase_clicclacdemo .slide_main .img-input-container:focus {
+.content_type_clase_clicclac .slide_main input:focus,
+.content_type_clase_clicclac .slide_main .img-input-container:focus {
     border-top-color: #3B6CAA;
     border-right-color: #3B6CAA;
     border-bottom-color: #3B6CAA;
@@ -2176,7 +2176,7 @@ textarea.form-control {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
 }
 
-.content_type_clase_clicclacdemo .fillintheblankscentro .slide_main .fillblanks input {
+.content_type_clase_clicclac .fillintheblankscentro .slide_main .fillblanks input {
 	text-align: center
 }
 
@@ -2233,7 +2233,7 @@ textarea.form-control {
 
 @media screen and (max-width: 480px) {
 
-.content_type_clase_clicclacdemo #actividad .content .header .title {
+.content_type_clase_clicclac #actividad .content .header .title {
 	margin-top: 0px;
 }
 
@@ -2242,7 +2242,7 @@ textarea.form-control {
 
 @media screen and (max-width: 375px) {
 
-.content_type_clase_clicclacdemo #actividad .content .header .title {
+.content_type_clase_clicclac #actividad .content .header .title {
 		margin-top: 0px;
 }
 
@@ -2337,9 +2337,9 @@ textarea.form-control {
 
 
 
-body.content_type_clase_clicclacdemo #actividad .content .fillblanks-draggable-wrapper
+body.content_type_clase_clicclac #actividad .content .fillblanks-draggable-wrapper
 .response .bck-i-fullscreen,
-body.content_type_clase_clicclacdemo #actividad .content .fillblanks-draggable
+body.content_type_clase_clicclac #actividad .content .fillblanks-draggable
 .img-input-container.imgFilled img {
 	width: auto;
 	height: 100px !important;
