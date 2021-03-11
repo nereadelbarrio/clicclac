@@ -48,22 +48,6 @@
 				{ name: 'Lista desordenada 6', element: 'ul', attributes: { 'class': 'bck-ul bck-ul6' } },
 				{ name: 'Lista desordenada 7', element: 'ul', attributes: { 'class': 'bck-ul bck-ul7' } },
 				{ name: 'Lista desordenada 8', element: 'ul', attributes: { 'class': 'bck-ul bck-ul8' } },
-
-
-				{ name: 'Tabla 1', element: 'table', attributes: { 'class': 'table-1' } },
-				{ name: 'Tabla 2', element: 'table', attributes: { 'class': 'table-2' } },
-				{ name: 'Tabla 3', element: 'table', attributes: { 'class': 'table-3' } },
-				{ name: 'Tabla 4', element: 'table', attributes: { 'class': 'table-4' } },
-
-				{ name: 'Celda 1', element: 'td', attributes: { 'class': 'bck-td-1' } },
-				{ name: 'Celda 2', element: 'td', attributes: { 'class': 'bck-td-2' } },
-				{ name: 'Celda 3', element: 'td', attributes: { 'class': 'bck-td-3' } },
-				{ name: 'Celda 4', element: 'td', attributes: { 'class': 'bck-td-4' } },
-				{ name: 'Celda 5', element: 'td', attributes: { 'class': 'bck-td-5' } },
-				{ name: 'Celda 6', element: 'td', attributes: { 'class': 'bck-td-6' } },
-				{ name: 'Celda 7', element: 'td', attributes: { 'class': 'bck-td-7' } },
-				{ name: 'Celda 8', element: 'td', attributes: { 'class': 'bck-td-8' } },
-
 			
 				{ name: 'Icono Bocadillo', element: 'span', attributes: { 'class': 'icon icon-bocadillo' } },
 				{ name: 'Icono Brújula', element: 'span', attributes: { 'class': 'icon icon-brujula' } },
