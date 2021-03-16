@@ -657,12 +657,20 @@ a:hover, a:active, a:focus {
     text-align: center;
     overflow-wrap: break-word;
     vertical-align: top;
-    color: #ffcf01;
+    color: inherit;
 }
 
 .bck-file-attach img {
     display: none;
 }
+
+.bck-file-attach span {
+    display: inline-block;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
 
 /*SECCIONES*/
 
