@@ -1889,10 +1889,10 @@ hr {
 
 #actividad .player.audio {
 	background: url(images/icono_audio_clicclac.png) center center / cover;
-	height: 32px !important;
-    width: 32px;
-    vertical-align: middle;
-	margin-top: -25px;
+	height: 27px !important;
+    width: 29px;
+    /* vertical-align: middle; */
+    margin-top: -8px;
 }
 
 .cke_contents .icon:before, 
