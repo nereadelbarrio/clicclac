@@ -1926,70 +1926,70 @@ hr {
 
 .item-container .icon-bocadillo:before {
 	background-image: url(images/icono_bocadillo_clicclac.png);
-	width: 30px;
-    height: 21px;
-    margin-top: 2px;
+    width: 35px;
+    height: 26px;
+    margin-top: 3px;
 }
 
 .item-container .icon-brujula:before {
     background-image: url(images/icono_brujula_clicclac.png);
     width: 32px;
-    height: 20px;
-    margin-top: -1px;
+    height: 24px;
+    margin-top: 2px;
 }
 
 .item-container .icon-fiche:before {
 	background-image: url(images/icono_fiche_clicclac.png);
-	width: 44px;
-    height: 29px;
-    margin-top: -2px;
+	width: 39px;
+    height: 28px;
+    margin-top: 2px;
 }
 
 .item-container .icon-lapiz:before {
     background-image: url(images/icono_lapiz_clicclac.png);
     width: 32px;
-    height: 29px;
-    margin-top: -4px;
+    height: 27px;
+    margin-top: 0px;
 }
 
 .item-container .icon-libro:before {
 	background-image: url(images/icono_libro_clicclac.png);
-	width: 34px;
-    height: 30px;
-    margin-top: -1px;
+	width: 32px;
+    height: 25px;
+    margin-top: 5px;
 }
 
 .item-container .icon-lupa:before {
 	background-image: url(images/icono_lupa_clicclac.png);
-	width: 30px;
-    height: 28px;
-    margin-top: -1px;
+width: 30px;
+    height: 25px;
+    margin-top: 3px;
 }
 
 .item-container .icon-mano:before {
 	background-image: url(images/icono_mano_clicclac.png);
-	width: 43px;
-    height: 30px;
-    margin-top: -2px;
+	width: 32px;
+    height: 25px;
+    margin-top: 3px;
 }
 
 .item-container .icon-notas:before {
 	background-image: url(images/icono_notas_clicclac.png);
 	width: 31px;
-    height: 27px;
-    margin-top: -5px;
+    height: 24px;
+    margin-top: 5px;
 }
 
 .item-container .icon-pegamento:before {
 	background-image: url(images/icono_pegamento_clicclac.png);
 	width: 22px;
     height: 29px;
-    margin-top: -2px;
+    margin-top: 0px;
 }
 
 .item-container .icon-pintar:before {
     background-image: url(images/icono_pintar_clicclac.png);
-    width: 45px;
+    width: 34px;
     height: 29px;
     margin-top: -1px;
 }
@@ -2003,30 +2003,30 @@ hr {
 
 .item-container .icon-delf-1:before {
 	background-image: url(images/icono_delf_1_clicclac.png);
-	width: 46px;
-    height: 29px;
-    margin-top: -5px;
+	width: 33px;
+    height: 30px;
+    margin-top: 1px;
 }
 
 .item-container .icon-delf-2:before {
 	background-image: url(images/icono_delf_2_clicclac.png);
-	width: 46px;
+width: 34px;
     height: 29px;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 .item-container .icon-delf-3:before {
 	background-image: url(images/icono_delf_3_clicclac.png);
-	width: 46px;
+width: 24px;
     height: 29px;
-    margin-top: -5px;
+    margin-top: 0px;
 }
 
 .item-container .icon-delf-4:before {
 	background-image: url(images/icono_delf_4_clicclac.png);
-	width: 46px;
-    height: 32px;
-    margin-top: -1px;
+width: 35px;
+    height: 31px;
+    margin-top: 0px;
 }
 
 /* Forms */
