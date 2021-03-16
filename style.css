@@ -675,11 +675,11 @@ a:hover, a:active, a:focus {
 	content: " ";
     background-image: url(images/icono_fiche_clicclac.png);
     background-repeat: no-repeat;
-    padding: 10px;
+    padding: 22px;
     background-size: contain;
     margin-top: 0px;
     position: absolute;
-	margin-left: -5px;
+    margin-left: -50px;
 }
 
 
