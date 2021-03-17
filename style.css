@@ -1694,14 +1694,16 @@ a:hover, a:active, a:focus {
 }
 
 .bck-dropdown1 .bck-dropdown-content {
-    background-color: #fff;
+    background-color: #EDEDED;
     border: 2px solid #ededed;
     padding-left: 20px;
     padding-bottom: 0px;
-    font-size: 1.6rem; 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-	max-height: 800%;
+    max-height: 800%;
+    color: #333333;
+    font-size: 1.4rem;
+    padding: 10px 42px;
 }
 
 .bck-dropdown1 .bck-dropdown-titulo {
