@@ -822,7 +822,7 @@ a:hover, a:active, a:focus {
     padding: 0px 2px;
     border-radius: 100%;
     position: absolute;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-left: -40px;
     width: 33px;
     text-align: center;
