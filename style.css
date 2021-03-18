@@ -1984,9 +1984,9 @@ hr {
 
 .item-container .icon-lupa:before {
 	background-image: url(images/icono_lupa_clicclac.png);
-width: 30px;
-    height: 25px;
-    margin-top: 3px;
+width: 37px;
+    height: 35px;
+    margin-top: -3px;
 }
 
 .item-container .icon-mano:before {
