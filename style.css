@@ -2371,80 +2371,80 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     border: 2.5px dotted #dcb60f;
 }
 
+/***********************UNITTAG************************/
 
-/*--------------CONTENIDO EXTRA---------------------*/
-
-#list-units .unittag_clicclacdemo_contenidoextra {
-    border: 3px solid #ffd000;
-    background: #f0cc17 !important;
+.unittag_evaluation .bck-enfasis-1 {
+	color: #8E3E97;
 }
 
-#list-units .unittag_clicclacdemo_contenidoextra a .title {
-    color: #145C27 !important;
+.unittag_evaluation .bck-title1 {
+	color: #fff;
+    background-color: rgb(252,180,59);
+    padding: 10px 82px;
+    border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-/*--------------------LIBRO 1-------------------------*/
-/*---------------SB--------------*/
-
-#list-units .unittag_clicclacdemo_sb {
-   background: #009f74 !important;
+.unittag_evaluation .bck-title2 {
+    font-size: 4.5rem;
+    font-family: 'Conv_Chaloops-Medium';
+    color: #8E3E97;
 }
 
-#list-units .unittag_clicclacdemo_sb a .title {
-    color: #fff !important;
+.unittag_evaluation .bck-title3 {
+    font-size: 3.5rem;
+    font-family: 'Conv_Chaloops-Medium';
+    color: #8E3E97;
 }
 
-/*-------------WB----------------*/
-#list-units .unittag_clicclacdemo_wb {
-    background: #fff !important;
-    border: 2.5px dotted #00AC81;
+.unittag_evaluation .bck-box.bck-box11 {
+	margin: 10px 10px 20px 10px;
+    background: #FFF;
+    padding: 6px 20px;
+    border-radius: 20px;
+    border: 2px dashed #FCB43B;
+    text-align: center;
 }
 
-#list-units .unittag_clicclacdemo_wb a .title {
-    color: #00AC81 !important;
+.unittag_evaluation .bck-box.bck-box11 .bck-title {
+    font-family: 'Conv_Chaloops-Medium';
+    font-size: 2.2rem;
+    color: #8E3E97;
 }
 
-/*--------------------LIBRO 2-------------------------*/
-/*---------------SB--------------*/
-
-#list-units .unittag_clicclacdemo_sb_nivel2 {
-   background: #C4145F !important;
+.unittag_evaluation .bck-box.bck-box11 .bck-title p {
+    margin-bottom: 7px;
 }
 
-#list-units .unittag_clicclacdemo_sb_nivel2 a .title {
-    color: #fff !important;
+.unittag_evaluation .content .bck-ol2 li, 
+.unittag_evaluation .cke_contents .bck-ol2 li {
+    border-bottom: 2px dashed #a15ea8;
 }
 
-/*-------------WB----------------*/
-#list-units .unittag_clicclacdemo_wb_nivel2 {
-    background: #fff !important;
-    border: 2.5px dotted #C4145F;
+.unittag_evaluation .content .bck-ol2 li:before, 
+.unittag_evaluation .cke_contents .bck-ol2 li:before {
+    background: #8e3e97;
+    border-bottom: 2px dashed #8e3e97;
 }
 
-#list-units .unittag_clicclacdemo_wb_nivel2 a .title {
-    color: #C4145F !important;
+.unittag_evaluation .content .bck-ol5 li:before, 
+.unittag_evaluation .cke_contents .bck-ol5 li:before {
+    background: #8e3e97;
 }
 
-/*--------------------LIBRO 3-------------------------*/
-/*---------------SB--------------*/
-
-#list-units .unittag_clicclacdemo_sb_nivel3 {
-   background: #0097A3 !important;
+.unittag_evaluation .content .bck-ol4 li:before, 
+.unittag_evaluation .cke_contents .bck-ol4 li:before {
+    color: #FCB43B;
 }
 
-#list-units .unittag_clicclacdemo_sb_nivel3 a .title {
-    color: #fff !important;
+.unittag_evaluation .content table:not(.rf-tablegrid)[border] td {
+    border: #8e3e97 1px solid;
 }
 
-/*-------------WB----------------*/
-#list-units .unittag_clicclacdemo_wb_nivel3 {
-    background: #fff !important;
-    border: 2.5px dotted #0097a3;
-}
-
-#list-units .unittag_clicclacdemo_wb_nivel3 a .title {
-    color: #0097a3 !important;
-}
 
 /***************************COURSETAG CLIC CLAC*******************************/
 /***************************CLIC CLAC1*******************************/
