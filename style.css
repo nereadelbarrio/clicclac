@@ -12,29 +12,29 @@
 }
 
 @font-face {
-	font-family: 'Conv_AndikaNewBasic-Regular';
+	font-family: 'Conv_AndikaNewBasic';
 	src: url('fonts/AndikaNewBasic-Regular.eot');
 	src: local('☺'),
 	url('fonts/AndikaNewBasic-Regular.woff') format('woff'),
 	url('fonts/AndikaNewBasic-Regular.ttf') format('truetype'),
 	url('fonts/AndikaNewBasic-Regular.svg') format('svg');
-	font-weight: normal;
+	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_AndikaNewBasic-Bold';
+	font-family: 'Conv_AndikaNewBasic';
 	src: url('fonts/AndikaNewBasic-Bold.eot');
 	src: local('☺'),
 	url('fonts/AndikaNewBasic-Bold.woff') format('woff'),
 	url('fonts/AndikaNewBasic-Bold.ttf') format('truetype'),
 	url('fonts/AndikaNewBasic-Bold.svg') format('svg');
-	font-weight: normal;
+	font-weight: 700;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Conv_OpenDyslexic-Regular';
+	font-family: 'Conv_OpenDyslexic';
 	src: url('fonts/OpenDyslexic-Regular.eot');
 	src: local('☺'),
 	url('fonts/OpenDyslexic-Regular.woff') format('woff'),
@@ -45,7 +45,7 @@
 }
 
 @font-face {
-	font-family: 'Conv_OpenDyslexic-Bold';
+	font-family: 'Conv_OpenDyslexic';
 	src: url('fonts/OpenDyslexic-Bold.eot');
 	src: local('☺'),
 	url('fonts/OpenDyslexic-Bold.woff') format('woff'),
@@ -197,7 +197,7 @@
 	body.content_type_clase_clicclac {
 		font-size: 1.8rem;
 		font: 400 15px 'Source Sans Pro',sans-serif;
-		font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+		font-family: 'Conv_AndikaNewBasic',Sans-Serif;
 		color: #3B6CAA;
 	}
 
@@ -807,7 +807,7 @@ a:hover, a:active, a:focus {
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.2rem;
-    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
     border-bottom: 2px dashed #76B82A;
     margin-left: 40px;
 	MARGIN-BOTTOM: 15PX;
@@ -844,7 +844,7 @@ a:hover, a:active, a:focus {
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
     border-bottom: 2px dashed #76B82A;
     margin-left: 40px;
 
@@ -881,7 +881,7 @@ a:hover, a:active, a:focus {
 	margin-left: -10px;
 	padding-left: 80px;
 	font-size: 2.3rem;
-	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+	font-family: 'Conv_AndikaNewBasic',Sans-Serif;
 }
 
 .content .bck-ol3 li:before,
@@ -901,7 +901,7 @@ a:hover, a:active, a:focus {
     text-align: center;
     text-shadow: none;
     transform: none;
-    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
 }
 
 /*LISTA ORDENADA 4*/
@@ -913,7 +913,7 @@ a:hover, a:active, a:focus {
 	margin-left: -10px;
 	padding-left: 80px;
 	font-size: 2.3rem;
-	font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+	font-family: 'Conv_AndikaNewBasic',Sans-Serif;
 }
 
 
@@ -934,7 +934,7 @@ a:hover, a:active, a:focus {
     text-align: center;
     text-shadow: none;
     transform: none;
-    font-family: 'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
    }
 
 /*LISTA ORDENADA 5*/
@@ -945,7 +945,7 @@ a:hover, a:active, a:focus {
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
     border-bottom: none;
     margin-left: 40px;
 
@@ -981,7 +981,7 @@ a:hover, a:active, a:focus {
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
     border-bottom: none;
     margin-left: 40px;
 
@@ -1017,7 +1017,7 @@ a:hover, a:active, a:focus {
     color: #3B6CAA;
     padding-left: 0;
     font-size: 2.1rem;
-    font-family: 'Conv_AndikaNewBasic-Regular',Sans-Serif;
+    font-family: 'Conv_AndikaNewBasic',Sans-Serif;
     margin-left: 40px;
 
 }
@@ -1055,7 +1055,7 @@ a:hover, a:active, a:focus {
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+	font-family: 'Conv_OpenDyslexic',Sans-Serif;
 
 }
 
@@ -1066,7 +1066,7 @@ a:hover, a:active, a:focus {
     height: 6px;
     background-color: #E94859;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 
@@ -1082,7 +1082,7 @@ a:hover, a:active, a:focus {
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 .texto_curso .bck-ul2 li:before,
@@ -1093,7 +1093,7 @@ a:hover, a:active, a:focus {
     background-color: #fff;
     border: 1px solid #E94859;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 /*LISTA DESORDENADA 3*/
@@ -1131,7 +1131,7 @@ a:hover, a:active, a:focus {
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-	font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+	font-family: 'Conv_OpenDyslexic',Sans-Serif;
 
 }
 
@@ -1142,7 +1142,7 @@ a:hover, a:active, a:focus {
     height: 6px;
     background-color: #3B6CAA;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 
@@ -1157,7 +1157,7 @@ a:hover, a:active, a:focus {
 	padding-left: 80px;
 	font-size: 1.6rem;
 	margin-bottom: 10px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 .texto_curso .bck-ul5 li:before,
@@ -1168,7 +1168,7 @@ a:hover, a:active, a:focus {
     background-color: #fff;
     border: 1px solid #3B6CAA;
     margin-left: -20px;
-    font-family: 'Conv_OpenDyslexic-Regular',Sans-Serif;
+    font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
 
 
@@ -1825,17 +1825,17 @@ hr {
 /*Ã‰nfasis*/
 .bck-enfasis-1 {
 	color: #76B82A;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family:'Conv_AndikaNewBasic',Sans-Serif;
 }
 
 .bck-enfasis-2 {
 	color: #009FE3;
-    font-family: 'Conv_OpenDyslexic-Regular';
+    font-family: 'Conv_OpenDyslexic';
 }
 
 .bck-enfasis-3 {
 	border-bottom: 3px solid;
-    font-family:'Conv_AndikaNewBasic-Bold',Sans-Serif;
+    font-family:'Conv_AndikaNewBasic',Sans-Serif;
 }
 
 .bck-enfasis-4 {
@@ -1853,7 +1853,7 @@ hr {
 
 .bck-enfasis-5 {
 	color: #3B6CAA;
-    font-family: 'Conv_OpenDyslexic-Regular';
+    font-family: 'Conv_OpenDyslexic';
 }
 
 .bck-enfasis-6 {
@@ -2370,6 +2370,82 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
     background: #fff7d2 !important;
     border: 2.5px dotted #dcb60f;
 }
+
+
+/*--------------CONTENIDO EXTRA---------------------
+
+#list-units .unittag_clicclacdemo_contenidoextra {
+    border: 3px solid #ffd000;
+    background: #f0cc17 !important;
+}
+
+#list-units .unittag_clicclacdemo_contenidoextra a .title {
+    color: #145C27 !important;
+}
+
+/*--------------------LIBRO 1-------------------------
+/*---------------SB--------------
+
+#list-units .unittag_clicclacdemo_sb {
+   background: #009f74 !important;
+}
+
+#list-units .unittag_clicclacdemo_sb a .title {
+    color: #fff !important;
+}
+
+/*-------------WB----------------
+#list-units .unittag_clicclacdemo_wb {
+    background: #fff !important;
+    border: 2.5px dotted #00AC81;
+}
+
+#list-units .unittag_clicclacdemo_wb a .title {
+    color: #00AC81 !important;
+}
+
+/*--------------------LIBRO 2-------------------------
+/*---------------SB--------------
+
+#list-units .unittag_clicclacdemo_sb_nivel2 {
+   background: #C4145F !important;
+}
+
+#list-units .unittag_clicclacdemo_sb_nivel2 a .title {
+    color: #fff !important;
+}
+
+/*-------------WB----------------
+#list-units .unittag_clicclacdemo_wb_nivel2 {
+    background: #fff !important;
+    border: 2.5px dotted #C4145F;
+}
+
+#list-units .unittag_clicclacdemo_wb_nivel2 a .title {
+    color: #C4145F !important;
+}
+
+/*--------------------LIBRO 3-------------------------
+/*---------------SB--------------
+
+#list-units .unittag_clicclacdemo_sb_nivel3 {
+   background: #0097A3 !important;
+}
+
+#list-units .unittag_clicclacdemo_sb_nivel3 a .title {
+    color: #fff !important;
+}
+
+/*-------------WB----------------
+#list-units .unittag_clicclacdemo_wb_nivel3 {
+    background: #fff !important;
+    border: 2.5px dotted #0097a3;
+}
+
+#list-units .unittag_clicclacdemo_wb_nivel3 a .title {
+    color: #0097a3 !important;
+}
+
 
 /***************************COURSETAG CLIC CLAC*******************************/
 /***************************CLIC CLAC1*******************************/
