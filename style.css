@@ -880,7 +880,7 @@ a:hover, a:active, a:focus {
 	color: #3B6CAA;
 	margin-left: -10px;
 	padding-left: 80px;
-	font-size: 2.3rem;
+	font-size: 1.8rem;
 	font-family: 'Conv_AndikaNewBasic',Sans-Serif;
 }
 
@@ -888,7 +888,7 @@ a:hover, a:active, a:focus {
 .cke_contents .bck-ol3 li:before {
     content: counter(bck-li-counter, upper-alpha) ".";
     position: absolute;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 45px;
     display: inline-block;
     width: 40px;
@@ -896,7 +896,7 @@ a:hover, a:active, a:focus {
     border: 0px;
     background: transparent;
     color: #76B82A;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
     text-shadow: none;
@@ -1053,7 +1053,7 @@ a:hover, a:active, a:focus {
 	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
 	font-family: 'Conv_OpenDyslexic',Sans-Serif;
 
@@ -1080,7 +1080,7 @@ a:hover, a:active, a:focus {
 	color: #E94859;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
     font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
@@ -1129,7 +1129,7 @@ a:hover, a:active, a:focus {
 	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
 	font-family: 'Conv_OpenDyslexic',Sans-Serif;
 
@@ -1155,7 +1155,7 @@ a:hover, a:active, a:focus {
     font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
     font-family: 'Conv_OpenDyslexic',Sans-Serif;
 }
@@ -1180,7 +1180,7 @@ a:hover, a:active, a:focus {
 	font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
 }
 
@@ -1200,7 +1200,7 @@ a:hover, a:active, a:focus {
     font-weight: normal;
 	margin-left: -15px;
 	padding-left: 80px;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	margin-bottom: 10px;
 }
 
