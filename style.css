@@ -1718,7 +1718,8 @@ a:hover, a:active, a:focus {
     background-size: contain;
     padding: 15px;
     position: absolute;
-    margin-left: -25px;
+    transform: rotate(180deg);
+    margin-left: -36px;
     margin-top: -4px;
 }
 
